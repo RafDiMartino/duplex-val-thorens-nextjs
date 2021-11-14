@@ -1,0 +1,241 @@
+@import "../styles/colors.module.scss";
+
+.nav {
+    background-color: $navbar;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    z-index: 100;
+}
+
+.logo {
+    text-align: left;
+    width: 50%;
+    font-size: 1.2rem;
+    
+    a {
+        color: $white;
+
+        &:hover {
+            color: $lightBrown;
+        }
+    }
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    i {
+        background-color: $white;
+        width: 25px;
+        height: 2px;
+        margin: 2px;
+        border-radius: 2px;
+        z-index: 10;
+        transition: all ease 0.5s; 
+    }
+
+    .open:nth-child(1){
+        transform: rotate(45deg) translateY(9px);
+    }
+    
+    .open:nth-child(2){
+        opacity: 0;
+    }
+    
+    .open:nth-child(3){
+        transform: rotate(-45deg) translateY(-9px);
+    }
+    
+    .close:nth-child(1){
+        transform: rotate(0) translateY(0);
+    }
+    
+    .close:nth-child(2){
+        opacity: 1;
+    }
+    
+    .close:nth-child(3){
+        transform: rotate(0) translateY(0);
+    }
+}
+
+.links { 
+    display: none;
+}
+
+.nav-links-closed{
+    position: absolute;
+    background-color: $white;
+    top: 5rem;
+    width: 100%;
+    height: 0vh;
+    transition: all 0.3s ease;
+    overflow: hidden;
+
+    a {
+        color: $text;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        li {
+            margin: 3rem 0;
+            font-size: 1.2rem;
+            font-weight: 500;
+            opacity: 0;
+        }
+    }
+
+    .translation-wrapper{
+        opacity: 0;
+    }
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: $white;
+    top: 5rem;
+    width: 100%;
+    height: calc(100vh - 5.5rem);
+    transition: all .5s ease;
+    box-shadow: 0px 2px 4px $text;
+
+    a {
+        color: $text;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        li {
+            text-align: center;
+            width: 150px;
+            margin: 0 0 0;
+            padding: 1.5rem 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+            opacity: 1;
+            transition: opacity .5s ease 0.1s;
+            border-bottom: 1.5px solid $text;
+        }
+    }
+    .translation-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2rem;
+        width: 50px;
+        opacity: 1;
+        transition: opacity .5s ease 0.1s;
+        
+        .translation{
+            background-color: none;
+            border: none;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav {
+        padding: 1rem 1rem;
+    }
+
+    .logo {
+        font-size: 1.25rem;
+        width: 30%;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-links-closed {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            li {
+                width: fit-content;
+                padding-left: 1rem;
+                font-weight: 400;
+            }
+        }
+        
+        a {
+            color: $white;
+            
+            &:hover {
+                color: $lightBrown;
+            }
+        }
+    }
+
+    .translation-wrapper{
+        display: flex;
+        padding-left: 1.5rem;
+        
+        .translation{
+            background-color: $navbar;
+            margin-left: 1rem;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .nav {
+        padding: 1rem 2rem;
+    }
+
+    .logo{
+        font-size: 1.3rem;
+    }
+
+    .links ul {
+        text-align: center;
+
+        li {
+            padding-left: 2rem;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+    }
+}
