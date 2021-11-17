@@ -10,7 +10,7 @@ function HomePage() {
             <Head>   
                 <title>Duplex Val Thorens</title>
                 <meta name="description" content="Apartment a vendre" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/snowflake.png" />
             </Head>
             <h1>{t("common:headers.page_title_home")}</h1>
             
