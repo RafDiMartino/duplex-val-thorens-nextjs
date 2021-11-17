@@ -1,0 +1,89 @@
+@import "../styles/colors.module.scss";
+
+.footer-wrapper {
+    background-color: $navbar;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $navbar;
+    
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0rem 0;
+
+        li {
+            display: flex;
+            font-size: 0.9rem;
+            color: $white;
+            font-weight: 500;
+            padding: 0.5rem 2rem;
+            &:last-child {
+                cursor: pointer;
+            }
+            a {
+                color: $white;
+            }
+
+            p {
+                padding-left: 0.3rem; 
+            }
+        }
+    }
+}
+
+.hr-footer {
+    width: 120px;
+    margin-top: 1.5rem;
+    border: 1px solid $white;
+}
+
+.footer-container {
+    height: 5rem;
+    background-color: $navbar;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    font-size: 0.8rem;
+    padding: 0rem 0;
+    font-weight: 300;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .footer-contacts {
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 0rem 0;
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: .9rem;
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+
+    .hr-footer {
+        width: 350px;
+    }
+
+    .footer-container {
+        font-size: 0.8rem;
+    }
+}

@@ -208,11 +208,10 @@
 
     .translation-wrapper{
         display: flex;
-        padding-left: 1.5rem;
         
         .translation{
             background-color: $navbar;
-            margin-left: 1rem;
+            margin-left: .5rem;
             border: none;
             cursor: pointer;
         }
@@ -238,5 +237,9 @@
             font-weight: 500;
             font-size: 1.1rem;
         }
+    }
+
+    .translation-wrapper {
+        padding-left: .5rem;
     }
 }
