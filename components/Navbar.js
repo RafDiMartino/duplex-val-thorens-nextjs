@@ -2,16 +2,25 @@ import React, { useState } from 'react'
 import Link from "next/link"
 import classes from "./navbar.module.scss"
 import "flag-icon-css/css/flag-icons.min.css"
-// import { useTranslation} from 'react-i18next'
+import {useRouter} from "next/router"
+import translationFr from "../public/locales/fr/common.json"
+import translationEn from "../public/locales/en/common.json"
 
 function Navbar() {
 
-    // const { t, i18n } = useTranslation()
+    const router = useRouter()
+    // const { locale } = router
+    // const t = locale === "en" ? translationEn : translationFr
 
-    // const changeLanguage = (lng) => {
-    //     i18n.changeLanguage(lng)
-    //     setOpenMenu(!openMenu)
-    // }
+    const englishToFrench = () => {
+        locale === "en" ? router.push(router.asPath, router.asPath, {locale: "fr"}) : ""
+        setOpenMenu(!openMenu)
+    }
+
+    const frenchToEnglish = () => {
+        locale === "fr" ? router.push(router.asPath, router.asPath, {locale: "en"}) : ""
+        setOpenMenu(!openMenu)
+    }
 
     const [openMenu, setOpenMenu] = useState(false)
 
@@ -31,15 +40,15 @@ function Navbar() {
             </div>
             <div className={classes.links}>
                 <ul>
-                    <li><Link href="/">test</Link></li>
+                    <li><Link href="/">{t.navbar.home}</Link></li>
                     <li><Link href="/apartment">test</Link></li>
                     <li><Link href="/rates">test</Link></li>
                     <li><Link href="/maps">test</Link></li>
                     <li><Link href="/contacts">test</Link></li>
                 </ul>
                 <div className={classes["translation-wrapper"]}>
-                    <button aria-label="french translation" className={classes.translation}><span className="flag-icon flag-icon-fr"></span></button>
-                    <button aria-label="english translation" className={classes.translation}><span className="flag-icon flag-icon-gb"></span></button>
+                    <button aria-label="french translation" className={classes.translation} onClick={() => englishToFrench()}><span className="flag-icon flag-icon-fr"></span></button>
+                    <button aria-label="english translation" className={classes.translation} onClick={() => frenchToEnglish()}><span className="flag-icon flag-icon-gb"></span></button>
                 </div>
             </div>
             <div className={openMenu ? classes["nav-links"] : classes["nav-links-closed"]}>
@@ -51,12 +60,19 @@ function Navbar() {
                     <li onClick={toogleMenu}><Link href="/contacts">test</Link></li>
                 </ul>
                 <div className={classes["translation-wrapper"]}>
-                    <button aria-label="french translation" className={classes.translation}  onClick={() => changeLanguage("fr")}><span className="flag-icon flag-icon-fr"></span></button>
-                    <button aria-label="english translation" className={classes.translation} onClick={() => changeLanguage("en")}><span className="flag-icon flag-icon-gb"></span></button>
+                    <button className={classes.translation}  onClick={() => englishToFrench()}><a className="flag-icon flag-icon-fr"></a></button>
+                    <button className={classes.translation}  onClick={() => frenchToEnglish()}><a className="flag-icon flag-icon-gb"></a></button>
                 </div>
             </div>
         </nav>
     )
 }
 
+
 export default Navbar
+
+// <Link aria-label="french translation" className={classes.translation}  onClick={() => changeLanguage()}><span className="flag-icon flag-icon-fr"></span></Link>
+// <Link aria-label="english translation" className={classes.translation} onClick={() => changeLanguage()}><span className="flag-icon flag-icon-gb"></span></Link>
+
+// <Link href={router.asPath} className={classes.translation}  onClick={() => changeLanguage()}><a className="flag-icon flag-icon-fr"></a></Link>
+//                     <Link href={router.asPath} className={classes.translation} onClick={() => changeLanguage()}><a className="flag-icon flag-icon-gb"></a></Link>

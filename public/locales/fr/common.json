@@ -1,0 +1,133 @@
+{
+    "navbar": {
+        "home": "Acceuil",
+        "apartment": "L'Appartement",
+        "rates": "Tarifs",
+        "maps": "Cartes",
+        "contacts": "Contacts"
+    },
+    "headers": {
+        "page_title_home": "Bienvenue",
+        "title_home": "Nous vous proposons de louer notre grand duplex de 80 mètres carrés, situé au dernier étage de la résidence “Les Lauzieres”.",
+        "page_title_apartment": "L'Appartement",
+        "title_apartment": "Détails & Photos",
+        "page_title_rates": "Tarifs 2021-2022",
+        "title_rates": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
+        "page_title_maps": "Cartes",
+        "title_maps": "Val Thorens",
+        "page_title_contacts": "Contactez-nous",
+        "title_contacts": "Appelez-nous ou envoyez-nous un message"
+    },
+    "home": {
+        "first_paragraph": "L'appartement vous offre une vue exceptionnelle sur les pistes et sur les montagnes, son emplacement permet un accès et retour skis aux pieds.",
+        "second_paragraph": "Notre appartement classé 4 flocons argent (label qualité hébergement) peut accueillir jusqu'à 10 personnes. Il vous offrira tout le confort au sein d'une résidence calme avec gardien située en plein cœur de la station. Le centre sportif et la galerie commerciale caron sont à 50m.",
+        "third_paragraph": "Afin de vous offrir le meilleur service possible, vous trouverez vos lits faits à l'arrivée, des serviettes de bains pour chacun d'entre vous, ainsi qu'un kit torchons pour la cuisine."
+    },
+    "apartment": {
+        "ground_floor": {
+            "groundFloor": "Rez-de-chaussée",
+            "first_li": "Séjour/salle à manger plein sud avec un grand canapé d'angle",
+            "second_li": "Coin cuisine équipée",
+            "third_li": "Balcon",
+            "fourth_li": "Placard à chaussures de ski",
+            "fifth_li": "WC"
+        },
+        "first_floor": {
+            "firstFloor": "Etage",
+            "first_li": "3 chambres doubles avec lits King size 160x200cm",
+            "second_li": "1 chambre double avec lit 140x190cm",
+            "third_li": "1 cabine avec lits superposés de 80x190cm",
+            "fourth_li": "Rangements supplémentaires dans le couloir",
+            "fifth_li": "1 salle de bain avec baignoire et WC",
+            "sixth_li": "1 salle de bain avec douche"
+        },
+        "equipment": {
+            "equipmentTitle": "Équipement",
+            "fridge": "Réfrigérateur et Congélateur",
+            "washing_machine": "Lave Linge / Sèche-Linge",
+            "dishwasher": "Lave-Vaisselle",
+            "microwave": " Four / Micro-Ondes",
+            "toaster": "Grille-Pain",
+            "raclette": "Appareil à Raclette",
+            "foundue": "Appareil à Fondue",
+            "coffe": "Cafetière Nespresso",
+            "filter_coffe": "Cafetière Filtre",
+            "kettle": "Bouilloire",
+            "vacuum": "Aspirateur",
+            "iron": "Planche et Fer à Repasser",
+            "hair_dryer": "Sèche-Cheveux",
+            "baby_bed": "Lit Bébé sur Demande",
+            "ski_closet": "Casier à Ski"
+        },
+        "entertainment": {
+            "entertainmentTitle": "Divertissement",
+            "wifi": "WIFI Gratuit",
+            "tv": "3 Téléviseurs à Écran Plat",
+            "dvd": "Lecteur DVD",
+            "xbox": "XBOX 360",
+            "games": "Jeux de Société",
+            "books": "Livres"
+        },
+        "suitability": {
+            "suitabilityTitle": "Informations Complémentaires",
+            "children": "Enfants bienvenus",
+            "smoking": "Il s'agit d'un appartement non-fumeur, mais il est permis de fumer sur le balcon",
+            "pets": "Animaux non admis",
+            "wheelchair": "Pas d’accès pour les personnes à mobilité réduite"
+        }
+    },
+    "rates": {
+        "period": "Période",
+        "weekly_rates": "Tarifs Semaine",
+        "short_stay_title": "Courts Séjours",
+        "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives. Nous contacter pour les tarifs.",
+        "seasons": {
+            "season_start": {
+                "season_title": "Début de Saison",
+                "months": "20 Novembre au 11 Décembre 2021",
+                "months2": "11 Décembre au 19 Novembre 2021"
+            },
+            "christmas": {
+                "season_title": "Noël et Nouvel An",
+                "months": "19 Décembre au 26 Décembre 2021",
+                "months2": "26 Décembre au 02 Janvier 2022"
+            },
+            "season_low": {
+                "season_title": "Basse Saison",
+                "months": "02 Janvier au 08 Janvier 2022",
+                "months2": "08 Janvier au 22 Janvier 2022"
+            },
+            "season_mid": {
+                "season_title": "Moyenne Saison",
+                "months": "22 Janvier au 05 Février 2022"
+            },
+            "season_high": {
+                "season_title": "Vacances de Février",
+                "months": "05 Février au 05 Mars 2022"
+            },
+            "season_mid2": {
+                "season_title": "Moyenne Saison",
+                "months": "05 Mars au 12 Mars 2022",
+                "months2": "12 Mars au 19 Mars 2022",
+                "months3": "19 Mars au 09 Avril 2022"
+            },
+            "season_end": {
+                "season_title": "Vacances de Pâques",
+                "months": "09 Avril au 07 Mai 2022"
+            }
+        }
+    },
+    "maps": {
+        "location_on_map": "L'immeuble est le numéro 12 sur la carte."
+    },
+    "contacts": {
+        "full_name": "Nom",
+        "email": "E-Mail",
+        "message": "Écrivez votre message ici...",
+        "send": "Envoyer"
+    },
+    "success": {
+        "thank_you": "Merci de nous avoir contacté!",
+        "thank_you2": "Nous vous répondrons dans les meilleurs délais."
+    }
+}
