@@ -4,15 +4,12 @@ import classes from "./navbar.module.scss"
 import "flag-icon-css/css/flag-icons.min.css"
 import {useRouter} from "next/router"
 import useTranslation from "next-translate/useTranslation"
-// import translationFr from "../locales/fr/common.json"
-// import translationEn from "../locales/en/common.json"
 
 function Navbar() {
     const { t } = useTranslation()
 
     const router = useRouter()
     const { locale } = router
-    // const t = locale === "en" ? translationEn : translationFr
 
     const englishToFrench = () => {
         locale === "en" ? router.push(router.asPath, router.asPath, {locale: "fr"}) : ""
