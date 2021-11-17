@@ -3,13 +3,15 @@ import Link from "next/link"
 import classes from "./navbar.module.scss"
 import "flag-icon-css/css/flag-icons.min.css"
 import {useRouter} from "next/router"
-import translationFr from "../public/locales/fr/common.json"
-import translationEn from "../public/locales/en/common.json"
+import useTranslation from "next-translate/useTranslation"
+// import translationFr from "../locales/fr/common.json"
+// import translationEn from "../locales/en/common.json"
 
 function Navbar() {
+    const { t } = useTranslation()
 
     const router = useRouter()
-    // const { locale } = router
+    const { locale } = router
     // const t = locale === "en" ? translationEn : translationFr
 
     const englishToFrench = () => {
@@ -40,11 +42,11 @@ function Navbar() {
             </div>
             <div className={classes.links}>
                 <ul>
-                    <li><Link href="/">{t.navbar.home}</Link></li>
-                    <li><Link href="/apartment">test</Link></li>
-                    <li><Link href="/rates">test</Link></li>
-                    <li><Link href="/maps">test</Link></li>
-                    <li><Link href="/contacts">test</Link></li>
+                    <li><Link href="/">{t("common:navbar.home")}</Link></li>
+                    <li><Link href="/apartment">{t("common:navbar.apartment")}</Link></li>
+                    <li><Link href="/rates">{t("common:navbar.maps")}</Link></li>
+                    <li><Link href="/maps">{t("common:navbar.rates")}</Link></li>
+                    <li><Link href="/contacts">{t("common:navbar.contacts")}</Link></li>
                 </ul>
                 <div className={classes["translation-wrapper"]}>
                     <button aria-label="french translation" className={classes.translation} onClick={() => englishToFrench()}><span className="flag-icon flag-icon-fr"></span></button>

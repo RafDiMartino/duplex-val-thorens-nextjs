@@ -1,6 +1,6 @@
-const { i18n } = require("./next-i18next.config") 
+// const { i18n } = require("./next-i18next.config") 
+const nextTranslate = require('next-translate')
 
-module.exports = {
+module.exports = nextTranslate({
   reactStrictMode: true,
-  i18n,
-};
+})

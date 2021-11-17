@@ -1,19 +1,17 @@
 import Head from 'next/head'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useTranslation } from 'next-i18next'
+// import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+// import { useTranslation } from 'next-i18next'
+import useTranslation from "next-translate/useTranslation"
 
-
-export async function getStaticProps({ locale }) {
-    return {
-        props: {
-            ...(await serverSideTranslations(locale, ["common"])),
-        }
-    }
-}
+// export const getStaticProps = async ({ locale }) => ({
+//     props: {
+//       ...await serverSideTranslations(locale, ['common']),
+//     },
+//   })
 
 function HomePage() {
 
-    const { t } = useTranslation("common")
+    const { t } = useTranslation()
 
     return (
         <div>
@@ -22,7 +20,7 @@ function HomePage() {
                 <meta name="description" content="Apartment a vendre" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1>{t("headers.page_title_home")}</h1>
+            <h1>{t("common:headers.page_title_home")}</h1>
             
         </div>
     )
