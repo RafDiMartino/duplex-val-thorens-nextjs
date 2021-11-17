@@ -22,7 +22,9 @@
         padding: 2rem 0rem 0;
 
         li {
+            height: 2.5rem;
             display: flex;
+            align-items: center;
             font-size: 0.9rem;
             color: $white;
             font-weight: 500;
