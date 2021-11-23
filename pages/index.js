@@ -16,6 +16,7 @@ function HomePage() {
                 <link rel="icon" href="/snowflake.png" />
             </Head>
             <Header
+                objPosition={"left"}
                 img={HomeHeaderImg}
                 h1={t("common:headers.page_title_home")}
                 h2={t("common:headers.title_home")}
