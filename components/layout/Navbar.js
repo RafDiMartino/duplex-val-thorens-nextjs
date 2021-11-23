@@ -41,8 +41,8 @@ function Navbar() {
                 <ul>
                     <li><Link href="/">{t("common:navbar.home")}</Link></li>
                     <li><Link href="/apartment">{t("common:navbar.apartment")}</Link></li>
-                    <li><Link href="/rates">{t("common:navbar.maps")}</Link></li>
-                    <li><Link href="/maps">{t("common:navbar.rates")}</Link></li>
+                    <li><Link href="/rates">{t("common:navbar.rates")}</Link></li>
+                    <li><Link href="/maps">{t("common:navbar.maps")}</Link></li>
                     <li><Link href="/contacts">{t("common:navbar.contacts")}</Link></li>
                 </ul>
                 <div className={classes["translation-wrapper"]}>

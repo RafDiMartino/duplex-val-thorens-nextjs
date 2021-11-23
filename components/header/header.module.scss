@@ -1,0 +1,33 @@
+@import "../../styles/colors.module.scss";
+
+.img-container {
+    width: 100%;
+    height: 30rem;
+}
+
+.page-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: 2px solid $lightBrown;
+    border-bottom: 2px solid $lightBrown;
+    text-align: center;
+
+    .page-title {
+        margin: 0;
+        padding: 3rem 2rem 1rem;
+        color: $text;
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+    
+    .page-title2 {
+        margin: 0;
+        padding: 0rem 2rem 3.5rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $text;
+    }
+}
