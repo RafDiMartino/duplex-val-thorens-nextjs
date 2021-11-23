@@ -52,15 +52,15 @@ function Navbar() {
             </div>
             <div className={openMenu ? classes["nav-links"] : classes["nav-links-closed"]}>
                 <ul>
-                    <li onClick={toogleMenu}><Link href="/">test</Link></li>
-                    <li onClick={toogleMenu}><Link href="/apartment">test</Link></li>
-                    <li onClick={toogleMenu}><Link href="/rates">test</Link></li>
-                    <li onClick={toogleMenu}><Link href="/maps">test</Link></li>
-                    <li onClick={toogleMenu}><Link href="/contacts">test</Link></li>
+                    <li onClick={toogleMenu}><Link href="/">{t("common:navbar.home")}</Link></li>
+                    <li onClick={toogleMenu}><Link href="/apartment">{t("common:navbar.apartment")}</Link></li>
+                    <li onClick={toogleMenu}><Link href="/rates">{t("common:navbar.rates")}</Link></li>
+                    <li onClick={toogleMenu}><Link href="/maps">{t("common:navbar.maps")}</Link></li>
+                    <li onClick={toogleMenu}><Link href="/contacts">{t("common:navbar.contacts")}</Link></li>
                 </ul>
                 <div className={classes["translation-wrapper"]}>
-                    <button className={classes.translation}  onClick={() => englishToFrench()}><a className="flag-icon flag-icon-fr"></a></button>
-                    <button className={classes.translation}  onClick={() => frenchToEnglish()}><a className="flag-icon flag-icon-gb"></a></button>
+                    <button className={classes.translation}  onClick={() => englishToFrench()}><span className="flag-icon flag-icon-fr"></span></button>
+                    <button className={classes.translation}  onClick={() => frenchToEnglish()}><span className="flag-icon flag-icon-gb"></span></button>
                 </div>
             </div>
         </nav>
