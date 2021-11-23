@@ -14,7 +14,6 @@ function HomePage() {
                 <title>Duplex Val Thorens</title>
                 <meta name="description" content="Appartement a louer à Val Thorens pour 8/10 personnes avec accès direct aux pistes de ski du domaine skiable des 3 Vallées" />
                 <link rel="icon" href="/snowflake.png" />
-                <meta name="robots" content="all" />
             </Head>
             <Header
                 objPosition={"left"}
