@@ -2,7 +2,11 @@ import Head from 'next/head'
 import useTranslation from "next-translate/useTranslation"
 import Header from "../components/header/Header" 
 import HomeHeaderImg from "../assets/headers/home.webp" 
-
+import HomeDescription from '../components/home-description/HomeDescription'
+import View from "../assets/home-description/view.webp"
+import LivingRoom from "../assets/home-description/livingRoom.webp"
+import Bedroom from "../assets/home-description/bedroom.webp"
+import classes from "../components/home-description/home-description.module.scss"
 
 function HomePage() {
 
@@ -20,12 +24,25 @@ function HomePage() {
                 img={HomeHeaderImg}
                 h1={t("common:headers.page_title_home")}
                 h2={t("common:headers.title_home")}
+                priority={"priority"}
             />
-            
+            <HomeDescription 
+                className={classes["view-wrapper"]}
+                text={t("common:home.first_paragraph")}
+                img={View}
+            />
+            <HomeDescription 
+                className={classes["view-reverse"]}
+                text={t("common:home.second_paragraph")}
+                img={LivingRoom}
+            />
+            <HomeDescription 
+                className={classes["view-wrapper"]}
+                text={t("common:home.third_paragraph")}
+                img={Bedroom}
+            />
         </div>
     )
 }
 
 export default HomePage
-
-//Flat to rent in Val Thorens for 8/10 people with direct access to the slopes of the 3 Vallées ski resort. 

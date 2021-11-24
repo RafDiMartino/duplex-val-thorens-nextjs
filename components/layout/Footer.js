@@ -22,7 +22,7 @@ function Footer() {
             </div>
             <hr className={classes["hr-footer"]} />
             <div className={classes["footer-container"]}>
-                <p className={classes.madeBy}>&copy; 2021 Duplex Val Thorens | by Raffaele Di Martino</p>
+                <p>&copy; 2021 Duplex Val Thorens | by Raffaele Di Martino</p>
             </div>
         </footer>
     )
