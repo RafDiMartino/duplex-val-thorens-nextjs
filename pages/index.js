@@ -12,7 +12,7 @@ function HomePage() {
         <div>
             <Head>   
                 <title>Duplex Val Thorens</title>
-                <meta name="description" content="Appartement a louer à Val Thorens pour 8/10 personnes avec accès direct aux pistes de ski du domaine skiable des 3 Vallées" />
+                <meta name="description" content={t("common:head.description")} />
                 <link rel="icon" href="/snowflake.png" />
             </Head>
             <Header
