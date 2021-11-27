@@ -1,0 +1,42 @@
+@import "../../styles/colors.module.scss";
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10rem 0;
+    color: $text;
+    width: 300px;
+}
+
+.thanks-h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.7rem;
+}
+.thanks-h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.hr-success {
+    width: 100px;
+    height: 2px;
+    background-color: $lightBrown;
+    border: none;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    .success-wrapper {
+        width: 700px;
+    }
+}

@@ -1,18 +1,18 @@
 import Header from "../components/header/Header"
-import ContactstHeaderImg from "../assets/headers/contacts.webp"
 import useTranslation from "next-translate/useTranslation"
+import SuccessMessage from "../components/success-message/SuccessMessage"
+import classes from "../components/success-message/success-message.module.scss"
+import ContactstHeaderImg from "../assets/headers/contacts.webp"
 import Head from "next/head"
-import ContactForm from "../components/contact-form/ContactForm"
-import classes from "../components/contact-form/contact-form.module.scss"
 
-function Contacts() {
-
+function Success() {
+    
     const { t } = useTranslation()
 
     return (
         <div>
             <Head>   
-                <title>{t("common:navbar.contacts")}</title>
+                <title>{t("common:head.success")}</title>
                 <meta name="description" content={t("common:head.description")} />
                 <link rel="icon" href="/snowflake.png" />
             </Head>
@@ -21,11 +21,11 @@ function Contacts() {
                 h1={t("common:headers.page_title_contacts")}
                 h2={t("common:headers.title_contacts")}
             />
-            <div className={classes.wrapper}>
-                <ContactForm />
+            <div className={classes.contacts}>
+                <SuccessMessage />
             </div>
         </div>
     )
 }
 
-export default Contacts
+export default Success
