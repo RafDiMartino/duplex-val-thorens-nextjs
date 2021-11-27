@@ -10,10 +10,6 @@ function ContactForm() {
 
     const { t } = useTranslation()
 
-    const success = () => {
-        alert("Message submitted");
-    }
-
     return (
         <div className={classes["form-container"]}>
             <div className={classes["contacts-form-wrapper"]}>
@@ -32,7 +28,7 @@ function ContactForm() {
                 <div className={classes["form-group"]}>
                     <textarea  placeholder={t("common:contacts.message")} className={classes["form-control"]} name="Message" rows="20" required></textarea>
                 </div>
-                <button onClick={() => alert("message submitted")} className={classes["send-form"]} type="submit" ><SendIcon />&#8194;{t("common:contacts.send")}</button>
+                <button onClick={() => alert(t("common:alert"))} className={classes["send-form"]} type="submit" ><SendIcon />&#8194;{t("common:contacts.send")}</button>
             </form>
         </div>
     )
