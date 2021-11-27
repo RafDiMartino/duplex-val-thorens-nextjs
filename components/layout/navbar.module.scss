@@ -143,12 +143,12 @@
         align-items: center;
         justify-content: space-between;
         padding-top: 2rem;
-        width: 50px;
+        width: 70px;
         opacity: 1;
         transition: opacity .5s ease 0.1s;
         
         .translation{
-            background-color: none;
+            background-color: $white;
             border: none;
             cursor: pointer;
         }
