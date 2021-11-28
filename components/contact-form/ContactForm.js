@@ -1,12 +1,14 @@
 import classes from "./contact-form.module.scss"
-import React from 'react'
 import SendIcon from '@material-ui/icons/Send';
 import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
 import EmailIcon from '@material-ui/icons/Email';
 import useTranslation from "next-translate/useTranslation"
-import Success from "../../pages/contacts/success";
+import { useRouter } from "next/router"
 
 function ContactForm() {
+
+    const router = useRouter()
+    const { locale } = router
 
     const { t } = useTranslation()
 
@@ -19,7 +21,7 @@ function ContactForm() {
             <form action="https://formsubmit.co/xoomegaredox@gmail.com" method="POST">
                 <input className={classes.input} type="text" name="_honey" style={{display: "none"}}/>
                 <input className={classes.input} type="hidden" name="_captcha" value="false" />
-                <input className={classes.input} type="hidden" name="_next" value={"http://localhost:3000/"} />
+                <input className={classes.input} type="hidden" name="_next" value={locale == "en" ? "http://localhost:3000/en/contacts/success" : "http://localhost:3000/contacts/success"} />
                 <input className={classes.input} type="hidden" name="_template" value="box" />
                 <div className={classes["form-group"]}>
                     <input className={classes.input} type="text" name="Name" placeholder={t("common:contacts.full_name")} required/>
@@ -28,13 +30,10 @@ function ContactForm() {
                 <div className={classes["form-group"]}>
                     <textarea  placeholder={t("common:contacts.message")} className={classes["form-control"]} name="Message" rows="20" required></textarea>
                 </div>
-                <button onClick={() => alert(t("common:alert"))} className={classes["send-form"]} type="submit" ><SendIcon />&#8194;{t("common:contacts.send")}</button>
+                <button className={classes["send-form"]} type="submit" ><SendIcon />&#8194;{t("common:contacts.send")}</button>
             </form>
         </div>
     )
 }
 
 export default ContactForm
-
-// <form action="https://formsubmit.co/e8d4183aebb9cecb5af6933b481a6d04" method="POST">
-// <input className={classes.input} type="hidden" name="_next" value="http://duplexvalthorens.com/#/success" />
