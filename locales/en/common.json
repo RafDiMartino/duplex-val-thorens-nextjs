@@ -1,8 +1,11 @@
 {   
-    "alert": "Thank you for contacting us! We will get back to you as soon as possible.",
     "head": {
         "success" : "Success",
-        "description": "Flat to rent in Val Thorens for 8/10 people with direct access to the slopes of the 3 Vallées ski resort."
+        "home": "Book your ski holidays in Val Thorens. To rent: Duplex apartment for 8 to 10 people with 5 bedrooms and direct access to the slopes of the 3 Vallées ski resort.",
+        "apartment": "80m2 top floor appartement for 8 to 10 people, with 5 bedrooms and 2 bathrooms.",
+        "rates": "Weekly holiday rental rates for the year 2021/2022, with possibility for short stays.",
+        "maps": "Maps of Val Thorens.",
+        "contacts": "Don’t hesitate to contact us for booking requests, or if you need any other information."
     },
     "navbar": {
         "home": "Home",
@@ -21,7 +24,7 @@
         "page_title_maps": "Maps",
         "title_maps": "Val Thorens",
         "page_title_contacts": "Contact Us",
-        "title_contacts": "Give us a call or send us a message"
+        "title_contacts": "Please contact us if you would like to book this appartement, or if you need additional information."
     },
     "home": {
         "first_paragraph": "This apartment offers one of the most amazing views of the slopes and the mountains, its fantastic location allows you to ski right up to the building entrance.",

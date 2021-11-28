@@ -1,8 +1,12 @@
 {
-    "alert": "Merci de nous avoir contacté! Nous vous répondrons dans les meilleurs délais.",
     "head": {
-        "success" : "Succès",
-        "description": "Appartement a louer à Val Thorens pour 8/10 personnes avec accès direct aux pistes de ski du domaine skiable des 3 Vallées"
+        "success": "Succès",
+        "home": "Réservez votre location d'appartement de vacances dans la station de Val Thorens. À louer: Duplex pour 8 à 10 personnes avec 5 chambres aux pieds des pistes de ski du domaine skiable des 3 Vallées.",
+        "apartment": "Appartement de 80m2 au dernier étage avec 5 chambres et deux salles de bain, pouvant acceuillir 8 à 10 personnes.",
+        "rates": "Tarifs de location à la semaine pour l'année 2021/2022, avec possibilité de cours séjours.",
+        "maps": "Cartes de la station de ski de Val Thorens.",
+        "contacts": "Pour toute demande de location ou d'information, n'hesitez pas à nous contacter."
+        
     },
     "navbar": {
         "home": "Acceuil",
@@ -21,7 +25,7 @@
         "page_title_maps": "Cartes",
         "title_maps": "Val Thorens",
         "page_title_contacts": "Contactez-nous",
-        "title_contacts": "Appelez-nous ou envoyez-nous un message"
+        "title_contacts": "Pour toute demande de location ou d'information, n'hesitez pas à nous contacter."
     },
     "home": {
         "first_paragraph": "L'appartement vous offre une vue exceptionnelle sur les pistes et sur les montagnes, son emplacement permet un accès et retour skis aux pieds.",

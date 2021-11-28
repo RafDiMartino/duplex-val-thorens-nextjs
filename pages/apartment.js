@@ -11,7 +11,7 @@ function Apartment() {
         <div>
             <Head>   
                 <title>{t("common:navbar.apartment")}</title>
-                <meta name="description" content={t("common:head.description")} />
+                <meta name="description" content={t("common:head.apartment")} />
                 <link rel="icon" href="/snowflake.png" />
             </Head>
             <Header

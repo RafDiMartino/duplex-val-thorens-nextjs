@@ -13,7 +13,7 @@ function Rates() {
         <div>
             <Head>   
                 <title>{t("common:navbar.rates")}</title>
-                <meta name="description" content={t("common:head.description")} />
+                <meta name="description" content={t("common:head.rates")} />
                 <link rel="icon" href="/snowflake.png" />
             </Head>
             <Header

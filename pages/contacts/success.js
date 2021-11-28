@@ -13,7 +13,7 @@ function Success() {
         <div>
             <Head>   
                 <title>{t("common:navbar.contacts")}</title>
-                <meta name="description" content={t("common:head.description")} />
+                <meta name="description" content={t("common:head.contacts")} />
                 <link rel="icon" href="/snowflake.png" />
             </Head>
             <Header

@@ -12,7 +12,7 @@ function Maps() {
         <div>
             <Head>   
                 <title>{t("common:navbar.maps")}</title>
-                <meta name="description" content={t("common:head.description")} />
+                <meta name="description" content={t("common:head.maps")} />
                 <link rel="icon" href="/snowflake.png" />
             </Head>
             <Header
