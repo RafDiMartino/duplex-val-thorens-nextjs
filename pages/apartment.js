@@ -31,7 +31,7 @@ function Apartment() {
                 className={classes["floor-container"]}
                 title={t("common:apartment.ground_floor.groundFloor")} 
                 ul={<ULGroundFloor />}
-                carousel={<Carousel data={imgDataGF}/>}
+                // carousel={<Carousel data={imgDataGF}/>}
             />
             </SimpleReactLightbox>
             <SimpleReactLightbox>
@@ -39,7 +39,7 @@ function Apartment() {
                     className={classes["reverse"]}
                     title={t("common:apartment.first_floor.firstFloor")} 
                     ul={<ULFirstFloor />}
-                    carousel={<Carousel data={imgDataFF}/>}
+                    // carousel={<Carousel data={imgDataFF}/>}
                 />
             </SimpleReactLightbox>
             <h1>test</h1>
