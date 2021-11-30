@@ -1,0 +1,58 @@
+@import "../../styles/colors.module.scss";
+
+.carousel-wrapper {
+    margin: 0rem .5rem 0;
+}
+
+.imgWrapper{
+    position: relative;
+    height: 15rem;
+    margin: 1rem 0;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.884) 0px 10px 10px -10px;
+}
+
+div .swiper-container .swiper-button-prev, 
+div .swiper-container .swiper-button-next{ 
+    color: $navbar;
+    font-weight: 600;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: $navbar;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    background: $navbar;
+    
+}
+
+@media screen and (min-width: 1024px){
+    .swiper-slide img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 18rem;
+        object-fit:cover;
+    }
+    .carousel-wrapper {
+        width: 60%;
+        margin: 0;
+    }
+
+    .imgWrapper{
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .carousel-wrapper {
+        width: 65%;
+        margin: 0;
+    }
+
+    .imgWrapper{
+        height: 19rem;
+    }
+}

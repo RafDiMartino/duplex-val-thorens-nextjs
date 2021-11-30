@@ -1,0 +1,131 @@
+@import "../../styles/colors.module.scss";
+
+.floor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 3rem 0;
+
+    .floor-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+
+        .hr-floors{
+            width: 100px;
+            height: 2px;
+            background-color: $lightBrown;
+            border: none;
+            margin: 1rem;
+        }
+
+        .h1-floor{
+            width: 100%;
+            display: flex;
+            font-size: 1.4rem;
+            justify-content: center;
+            align-items: center;
+            color: $text;
+            margin: 0;
+        }
+    }
+
+}
+
+.ul-wrapper { 
+    padding: 0 1rem;
+    
+}
+
+.ul-floor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 2rem .5rem;
+    color: $lightBrown;
+    font-size: 1.1rem;
+    max-width: 390px;
+    margin: 0;;
+    li {
+        list-style:disc;
+        color: $text;
+        max-width: 350px;
+    }
+}
+
+.list-title{
+    color: $lightBrown;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    max-width: 350px;
+    justify-self: center;
+    font-size: 1.3rem;
+}
+
+.ul-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 768px){
+    .floor {
+        flex-direction: row;
+        .floor-wrapper{
+            width: 50%;
+        }
+        .ul-wrapper { 
+            padding: 0 0;
+        }
+    }
+
+    .list-title{
+        color: $lightBrown;
+        padding: 1rem 0 .5rem 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .floor-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5rem .6rem 0 0;
+        .floor {
+            display: block;
+            width: 40%;
+            padding: 3rem 0 3rem 2rem;
+            .floor-wrapper {
+                width: 100%;
+            }
+        }
+    }
+
+    .reverse{ 
+        flex-direction: row-reverse;
+        padding: 0 0 0 .6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .floor {
+            display: block;
+            width: 40%;
+            padding: 3rem 0 3rem 2rem;
+            
+            .floor-wrapper {
+                width: 100%;
+            }
+        }
+    }
+}
