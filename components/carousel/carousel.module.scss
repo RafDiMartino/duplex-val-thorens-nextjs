@@ -12,20 +12,6 @@
     box-shadow: rgba(0, 0, 0, 0.884) 0px 10px 10px -10px;
 }
 
-div .swiper-container .swiper-button-prev, 
-div .swiper-container .swiper-button-next{ 
-    color: $navbar;
-    font-weight: 600;
-}
-
-.swiper-pagination .swiper-pagination-bullet-active {
-    background: $navbar;
-}
-
-.swiper-pagination .swiper-pagination-bullet {
-    background: $navbar;
-    
-}
 
 @media screen and (min-width: 1024px){
     .swiper-slide img {

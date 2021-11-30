@@ -37,6 +37,11 @@ const Carousel = ({ data }) => {
       <div className={classes["carousel-wrapper"]}>
           <SRLWrapper options={options}>
               <Swiper
+                    style={{ '--swiper-pagination-color': 'rgb(38, 15, 2)',
+                             '--swiper-navigation-color': 'rgb(38, 15, 2)',
+                             '--swiper-navigation-size': '44px',
+                             'font-weight' : "600", 
+                            }}
                     breakpoints={{
                         // when window width is >= 320px
                         320: {
@@ -64,7 +69,7 @@ const Carousel = ({ data }) => {
                     scrollbar={{ draggable: true }}
                     >    
                         {data && data.map(item => (
-                            <SwiperSlide key={item.id}><div className={classes.imgWrapper} ><Image layout="fill" objectFit="cover" src={item.url} alt="Apartment pictures" /></div></SwiperSlide>
+                            <SwiperSlide key={item.id}><div className={classes.imgWrapper} ><Image layout="fill" objectFit="cover" src={item.url} alt="" /></div></SwiperSlide>
                         ))}
               </Swiper>
           </SRLWrapper>  
