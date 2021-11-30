@@ -64,7 +64,7 @@ const Carousel = ({ data }) => {
                     scrollbar={{ draggable: true }}
                     >    
                         {data && data.map(item => (
-                            <SwiperSlide key={item.id} ><div className={classes.imgWrapper} ><Image layout="fill" objectFit="cover" src={item.url} alt="Apartment pictures" priority /></div></SwiperSlide>
+                            <SwiperSlide key={item.id}><div className={classes.imgWrapper} ><Image layout="fill" objectFit="cover" src={item.url} alt="Apartment pictures" /></div></SwiperSlide>
                         ))}
               </Swiper>
           </SRLWrapper>  
