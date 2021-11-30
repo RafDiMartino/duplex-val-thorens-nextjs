@@ -27,19 +27,19 @@ function Apartment() {
                 h2={t("common:headers.title_apartment")}
             />
             <SimpleReactLightbox>
-            <FloorDescriptions
-                className={classes["floor-container"]}
-                title={t("common:apartment.ground_floor.groundFloor")} 
-                ul={<ULGroundFloor />}
-                // carousel={<Carousel data={imgDataGF}/>}
-            />
+                <FloorDescriptions
+                    className={classes["floor-container"]}
+                    title={t("common:apartment.ground_floor.groundFloor")} 
+                    ul={<ULGroundFloor />}
+                    carousel={<Carousel data={imgDataGF}/>}
+                />
             </SimpleReactLightbox>
             <SimpleReactLightbox>
                 <FloorDescriptions
                     className={classes["reverse"]}
                     title={t("common:apartment.first_floor.firstFloor")} 
                     ul={<ULFirstFloor />}
-                    // carousel={<Carousel data={imgDataFF}/>}
+                    carousel={<Carousel data={imgDataFF}/>}
                 />
             </SimpleReactLightbox>
             <h1>test</h1>
