@@ -42,6 +42,7 @@ function Apartment() {
                     carousel={<Carousel data={imgDataFF}/>}
                 />
             </SimpleReactLightbox>
+            <h1>test</h1>
         </div>
     )
 }
