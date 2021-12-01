@@ -4,10 +4,14 @@ import useTranslation from "next-translate/useTranslation"
 import Head from 'next/head'
 import FloorDescriptions from "../components/apartment-description/FloorDescriptions"
 import { ULGroundFloor, ULFirstFloor } from "../components/apartment-description/ULs"
-import classes from "../components/apartment-description/floor-descriptions.module.scss"
 import Carousel from "../components/carousel/Carousel"
 import { imgDataFF, imgDataGF } from "../data/ImgData"
 import SimpleReactLightbox from "simple-react-lightbox"
+import { Equipment } from "../components/equipment-entertainment-suitability/Equipment"
+import { Entertainment } from "../components/equipment-entertainment-suitability/Entertainment"
+import Suitability from "../components/equipment-entertainment-suitability/Suitability"
+import classes from "../components/apartment-description/floor-descriptions.module.scss"
+import classesE from "../components/equipment-entertainment-suitability/equipment-entertainment-suitability.module.scss"
 
 function Apartment() {
 
@@ -42,6 +46,15 @@ function Apartment() {
                     carousel={<Carousel data={imgDataFF}/>}
                 />
             </SimpleReactLightbox>
+            <div className={classesE["icons-container"]}>
+                <Equipment 
+                    title={t("common:apartment.equipment.equipmentTitle")}
+                />
+                <Entertainment 
+                    title={t("common:apartment.entertainment.entertainmentTitle")}
+                />
+            </div>
+            <Suitability />
         </div>
     )
 }

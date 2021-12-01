@@ -1,0 +1,104 @@
+@import "../../styles/colors.module.scss";
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.icons {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .h1-equipment {
+        width: 100%;
+        display: flex;
+        font-size: 1.4rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: $text;
+        margin: 1rem 0 0 0;
+    }
+
+    .hr-floors{
+        width: 100px;
+        height: 2px;
+        background-color: $lightBrown;
+        border: none;
+        margin: 1rem;
+    }
+    .icon-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0 0 0;
+        max-width: 67rem;
+
+        .icon-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 120px;
+        }
+
+        .imgWrapper{
+            position: relative;
+            width: 60px;
+            height: 60px;
+            margin: 0.5rem 1rem 0.5rem 1rem;
+        }
+    
+        .icon-description {
+            display: none;
+        }
+    
+        .icon-wrapper:hover .icon-description {
+            display: block;
+            text-align: center;
+            width: 134px;  
+            font-weight: 600;
+            color: $text;
+            margin: 0;
+            
+        }
+    }
+
+    .suitability-wrapper {
+        text-align: center;
+        padding: 0 1rem;
+
+        .suitability {
+            margin: 0;
+            font-size: 1.1rem;
+            font-weight: 400;
+            padding-top: 1rem;
+            color: $text;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .icons-container {
+        margin-top: 2.5rem;
+    }
+
+    .icons {
+        .icon-container{
+            .imgWrapper {
+                width: 70px;
+                height: 70px;
+                margin: .5rem 2rem 0.5rem 2rem;
+            }
+        }
+
+    }
+}
