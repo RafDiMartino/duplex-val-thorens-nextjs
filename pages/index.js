@@ -16,6 +16,7 @@ function HomePage() {
         <div>
             <Head>   
                 <title>Duplex Val Thorens</title>
+                <meta name="google-site-verification" content="bkY2o5jkwrKhlB1U7RJ_uYSAKNL8o8fVd5FT5O5OeYY" />
                 <meta name="description" content={t("common:head.home")} />
                 <link rel="icon" href="/snowflake.png" />
             </Head>
