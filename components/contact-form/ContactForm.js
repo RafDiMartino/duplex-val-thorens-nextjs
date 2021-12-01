@@ -18,10 +18,10 @@ function ContactForm() {
                 <div className={classes["contacts-form"]}><LocalPhoneIcon fontSize="medium" /><p>+33 0673346890</p></div>
                 <div className={classes["contacts-form"]}><EmailIcon fontSize="medium" /><p>pascal.paire@orange.fr</p></div>
             </div>
-            <form action="https://formsubmit.co/xoomegaredox@gmail.com" method="POST">
+            <form action="https://formsubmit.co/e8d4183aebb9cecb5af6933b481a6d04" method="POST">
                 <input className={classes.input} type="text" name="_honey" style={{display: "none"}}/>
                 <input className={classes.input} type="hidden" name="_captcha" value="false" />
-                <input className={classes.input} type="hidden" name="_next" value={locale == "en" ? "http://localhost:3000/en/contacts/success" : "http://localhost:3000/contacts/success"} />
+                <input className={classes.input} type="hidden" name="_next" value={locale == "en" ? "http://duplexvalthorens.com/en/contacts/success" : "http://duplexvalthorens.com/contacts/success"} />
                 <input className={classes.input} type="hidden" name="_template" value="box" />
                 <div className={classes["form-group"]}>
                     <input className={classes.input} type="text" name="Name" placeholder={t("common:contacts.full_name")} required/>
