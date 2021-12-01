@@ -1,5 +1,5 @@
 {
-  "name": "duplex-val-thorens-nextjs",
+  "name": "duplex-val-thorens",
   "private": true,
   "scripts": {
     "dev": "next dev",
