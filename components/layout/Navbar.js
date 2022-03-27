@@ -29,7 +29,7 @@ function Navbar() {
 
     return (
         <nav className={classes.nav}>
-            <h1 className={classes.logo}><Link href="/">Duplex Val Thorens</Link></h1>
+            <h1 className={classes.logo}><Link href="/">Appartement Val Thorens</Link></h1>
             <div className={classes.wrapper}>
                 <div className={classes["menu-icon"]} onClick={toogleMenu}>
                     <i className={openMenu ? classes.open : classes.close}></i>
