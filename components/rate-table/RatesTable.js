@@ -2,7 +2,7 @@ import classes from "./rates-table.module.scss"
 import useTranslation from "next-translate/useTranslation"
 
 
-function RatesTable({ season, period, period2, period3,period4, rates, rates2, rates3, rates4 }) {
+function RatesTable({ season, period, period2, period3, period4, period5, rates, rates2, rates3, rates4, rates5 }) {
 
     const { t } = useTranslation()
 
@@ -29,7 +29,11 @@ function RatesTable({ season, period, period2, period3,period4, rates, rates2, r
                 { period4 ? <div className={classes.rates}>
                     <p>{period4}</p>
                     <p>{rates4}</p>
-                </div> : <></> } 
+                    </div> : <></> } 
+                { period5 ? <div className={classes.rates}>
+                    <p>{period5}</p>
+                    <p>{rates5}</p>
+                    </div> : <></> }
             </div>   
         </div>
     )

@@ -89,7 +89,9 @@
         "period": "Period",
         "weekly_rates": "Weekly Rates",
         "short_stay_title": "Short Stays",
-        "short_stay": "We offer the possibility for short stays depending on the period and provided that the stay includes a minimumof 2 consecutive nights. Contact us for rates information.",
+        "short_stay": "We offer the possibility for short stays depending on the period and provided that the stay includes a minimum of 2 consecutive nights:",
+        "short_stay2": "Week nights: 400€/night",
+        "short_stay3": "Weekends: 450€/night",
         "seasons": {
             "season_start": {
                 "season_title": "Beginning of Season",
@@ -122,13 +124,18 @@
             },
             "season_mid2": {
                 "season_title": "Mid Season",
-                "months": "05 March to 12 March 2022",
-                "months2": "12 March to 19 March 2022",
-                "months3": "19 March to 09 April 2022"
+                "months": "04 March to 11 March 2023",
+                "months2": "11 March to 18 March 2023",
+                "months3": "18 March to 25 March 2023",
+                "months4": "25 March to 01 April 2023",
+                "months5": "01 April to 08 April 2023"
             },
             "season_end": {
-                "season_title": "Easter 2022",
-                "months": "09 April to 07 May 2022"
+                "season_title": "Easter 2023",
+                "months": "08 April to 15 April 2023",
+                "months2": "15 April to 22 April 2023",
+                "months3": "22 April to 29 April 2023",
+                "months4": "29 April to 06 May 2023"
             }
         }
     },

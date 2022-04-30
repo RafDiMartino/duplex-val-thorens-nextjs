@@ -3,7 +3,7 @@
         "success": "Succès",
         "home": "Réservez votre location d'appartement de vacances dans la station de Val Thorens. À louer: Duplex pour 8 à 10 personnes avec 5 chambres aux pieds des pistes de ski du domaine skiable des 3 Vallées.",
         "apartment": "Appartement de 80m2 au dernier étage avec 5 chambres et deux salles de bain, pouvant acceuillir 8 à 10 personnes.",
-        "rates": "Tarifs de location à la semaine pour l'année 2021/2022, avec possibilité de cours séjours.",
+        "rates": "Tarifs de location à la semaine pour l'année 2021/2023, avec possibilité de cours séjours.",
         "maps": "Cartes de la station de ski de Val Thorens.",
         "contacts": "Pour toute demande de location ou d'information, n'hesitez pas à nous contacter."
         
@@ -21,7 +21,7 @@
         "title_home": "Nous vous proposons de louer notre grand duplex de 80 mètres carrés, situé au dernier étage de la résidence “Les Lauzieres”.",
         "page_title_apartment": "L'Appartement",
         "title_apartment": "Détails & Photos",
-        "page_title_rates": "Tarifs 2022 - 2023",
+        "page_title_rates": "Tarifs 2023 - 2023",
         "title_rates": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
         "page_title_maps": "Cartes",
         "title_maps": "Val Thorens",
@@ -90,23 +90,25 @@
         "period": "Période",
         "weekly_rates": "Tarifs Semaine",
         "short_stay_title": "Courts Séjours",
-        "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives. Nous contacter pour les tarifs.",
+        "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives :",
+        "short_stay2": "Tarifs par nuit en semaine : 400€",
+        "short_stay3": "Tarifs par nuit en week end : 450€",
         "seasons": {
             "season_start": {
                 "season_title": "Début de Saison",
-                "months": "19 Novembre to 10 Décembre 2022",
-                "months2": "10 Décembre to 17 Décembre 2022",
-                "months3": "17 Décembre to 24 Décembre 2022"
+                "months": "19 Novembre to 10 Décembre 2023",
+                "months2": "10 Décembre to 17 Décembre 2023",
+                "months3": "17 Décembre to 24 Décembre 2023"
             },
             "christmas": {
                 "season_title": "Noël et Jour de l'An",
-                "months": "24 Décembre to 31 Décembre 2022",
-                "months2": "31 Décembre 2022 to 07 Janvier 2023"
+                "months": "24 Décembre to 31 Décembre 2023",
+                "months2": "31 Décembre 2023 to 07 Janvier 2023"
             },
             "season_low": {
                 "season_title": "Basse Saison",
-                "months": "02 Janvier to 08 Janvier 2022",
-                "months2": "08 Janvier to 22 Janvier 2022"
+                "months": "02 Janvier to 08 Janvier 2023",
+                "months2": "08 Janvier to 22 Janvier 2023"
             },
             "season_mid": {
                 "season_title": "Moyenne Saison",
@@ -123,13 +125,18 @@
             },
             "season_mid2": {
                 "season_title": "Moyenne Saison",
-                "months": "05 Mars au 12 Mars 2022",
-                "months2": "12 Mars au 19 Mars 2022",
-                "months3": "19 Mars au 09 Avril 2022"
+                "months": "04 Mars au 11 Mars 2023",
+                "months2": "11 Mars au 18 Mars 2023",
+                "months3": "18 Mars au 25 Mars 2023",
+                "months4": "25 Mars au 01 Avril 2023",
+                "months5": "01 Avril au 08 Avril 2023"
             },
             "season_end": {
-                "season_title": "Vacances de Pâques 2022",
-                "months": "09 Avril au 07 Mai 2022"
+                "season_title": "Vacances de Pâques 2023",
+                "months": "08 Avril au 15 Avril 2023",
+                "months2": "15 Avril au 22 Avril 2023",
+                "months3": "22 Avril au 29 Avril 2023",
+                "months4": "29 Avril au 06 Mai 2023"
             }
         }
     },

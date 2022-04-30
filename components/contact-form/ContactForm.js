@@ -15,7 +15,7 @@ function ContactForm() {
     return (
         <div className={classes["form-container"]}>
             <div className={classes["contacts-form-wrapper"]}>
-                <div className={classes["contacts-form"]}><LocalPhoneIcon fontSize="medium" /><p>+33 0673346890</p></div>
+                <div className={classes["contacts-form"]}><LocalPhoneIcon fontSize="medium" /><p>(+33) 6 40 10 88 62</p></div>
                 <div className={classes["contacts-form"]}><EmailIcon fontSize="medium" /><p>pascal.paire@orange.fr</p></div>
             </div>
             <form action="https://formsubmit.co/e8d4183aebb9cecb5af6933b481a6d04" method="POST">

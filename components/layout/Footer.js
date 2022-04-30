@@ -15,7 +15,7 @@ function Footer() {
             <div className={classes["footer-contacts"]}>
                 <ul>
                     <li><BusinessIcon fontSize="small" mr={5} /><p>Résidence les Lauzières, 155 Rue du soleil, 73440 VAL THORENS</p></li>
-                    <li><LocalPhoneIcon fontSize="small" /><p>+33 0673346890</p></li>
+                    <li><LocalPhoneIcon fontSize="small" /><p>(+33) 6 40 10 88 62</p></li>
                     <li><EmailIcon fontSize="small" /><p>pascal.paire@orange.fr</p></li>
                     <li><ContactSupportIcon fontSize="small" /><Link href="/contacts"><p>{t("common:headers.page_title_contacts")}</p></Link></li>
                 </ul>
