@@ -20,7 +20,7 @@ function ContactForm() {
             </div>
             <form action="https://formsubmit.co/e8d4183aebb9cecb5af6933b481a6d04" method="POST">
                 <input className={classes.input} type="text" name="_honey" style={{display: "none"}}/>
-                <input className={classes.input} type="hidden" name="_captcha" value="false" />
+                <input className={classes.input} type="hidden" name="_captcha" value="true" />
                 <input className={classes.input} type="hidden" name="_next" value={locale == "en" ? "https://duplexvalthorens.com/en/contacts/success" : "https://duplexvalthorens.com/contacts/success"} />
                 <input className={classes.input} type="hidden" name="_template" value="box" />
                 <div className={classes["form-group"]}>
