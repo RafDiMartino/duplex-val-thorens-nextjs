@@ -15,7 +15,7 @@ const options = {
       autoplaySpeed: 1500,
       transitionSpeed: 100,
       slideAnimationType: "slide",
-      disablePanzoom: true,
+      disablePanzoom: false,
       disableWheelControls: true,
     },
     buttons: {
