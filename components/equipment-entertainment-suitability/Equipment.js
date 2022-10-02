@@ -13,6 +13,7 @@ import Icon12 from "../../assets/icons-equipment/ironing.png"
 import Icon13 from "../../assets/icons-equipment/hair-dryer.png"
 import Icon14 from "../../assets/icons-equipment/baby-crib.png"
 import Icon21 from "../../assets/icons-equipment/skiing.png"
+import Icon22 from "../../assets/icons-equipment/oven.png"
 import classes from"./equipment-entertainment-suitability.module.scss"
 import Image from "next/image"
 import useTranslation from "next-translate/useTranslation"
@@ -44,6 +45,12 @@ export function Equipment({title}) {
                         <Image src={Icon3} layout="responsive" objectFit="cover" alt="Equipment icons" />
                     </div>
                     <p className={classes["icon-description"]}>{t("common:apartment.equipment.dishwasher")}</p>
+                </div>
+                <div className={classes["icon-wrapper"]}>
+                    <div className={classes.imgWrapper}>
+                        <Image src={Icon22} layout="responsive" objectFit="cover" alt="Equipment icons" />
+                    </div>
+                    <p className={classes["icon-description"]}>{t("common:apartment.equipment.oven")}</p>
                 </div>
                 <div className={classes["icon-wrapper"]}>
                     <div className={classes.imgWrapper}>
