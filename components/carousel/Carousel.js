@@ -11,16 +11,16 @@ SwiperCore.use([Navigation, Pagination]);
 
 const options = {
     settings: {
-      overlayColor: "rgba(38, 15, 2, 0.9)",
+      overlayColor: "rgba(82, 39, 15, 0.856)",
       autoplaySpeed: 1500,
       transitionSpeed: 100,
       slideAnimationType: "slide",
       disablePanzoom: false,
-      disableWheelControls: false,
+      disableWheelControls: true,
     },
     buttons: {
-      backgroundColor: "rgb(82, 32, 3)",
-      iconColor: "rgb(141, 81, 12)",
+      backgroundColor: "rgb(45, 18, 1)",
+      iconColor: "rgb(176, 106, 27)",
       showAutoplayButton: false,
       showDownloadButton: false,
       showFullscreenButton: false
@@ -37,8 +37,8 @@ const Carousel = ({ data }) => {
       <div className={classes["carousel-wrapper"]}>
           <SRLWrapper options={options}>
               <Swiper
-                    style={{ '--swiper-pagination-color': 'rgb(38, 15, 2)',
-                             '--swiper-navigation-color': 'rgb(38, 15, 2)',
+                    style={{ '--swiper-pagination-color': 'rgb(176, 106, 27)',
+                             '--swiper-navigation-color': 'rgb(176, 106, 27)',
                              '--swiper-navigation-size': '44px',
                              'font-weight' : "600", 
                             }}
