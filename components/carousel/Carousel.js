@@ -16,7 +16,7 @@ const options = {
       transitionSpeed: 100,
       slideAnimationType: "slide",
       disablePanzoom: false,
-      disableWheelControls: true,
+      disableWheelControls: false,
     },
     buttons: {
       backgroundColor: "rgb(82, 32, 3)",
