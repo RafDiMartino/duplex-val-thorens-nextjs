@@ -8,6 +8,7 @@ import Pic7 from "../assets/ground-floor/gf6.webp"
 import Pic8 from "../assets/ground-floor/gf7.webp"
 import Pic9 from "../assets/ground-floor/gf8.webp"
 import Pic10 from "../assets/ground-floor/gf9.webp"
+
 import Pic11 from "../assets/first-floor/ff.webp"
 import Pic12 from "../assets/first-floor/ff1.webp"
 import Pic13 from "../assets/first-floor/ff2.webp"
@@ -17,7 +18,11 @@ import Pic16 from "../assets/first-floor/ff5.webp"
 import Pic17 from "../assets/first-floor/ff6.webp"
 import Pic18 from "../assets/first-floor/ff7.webp"
 import Pic19 from "../assets/first-floor/ff8.webp"
-import Pic20 from "../assets/first-floor/ff-plan.webp"
+import Pic20 from "../assets/first-floor/ff9.webp"
+import Pic21 from "../assets/first-floor/ff10.webp"
+import Pic22 from "../assets/first-floor/ff11.webp"
+import Pic23 from "../assets/first-floor/ff12.webp"
+import Pic24 from "../assets/first-floor/ff-plan.webp"
 
 export const imgDataGF = [
     {id: 1, url: Pic1},
@@ -29,7 +34,7 @@ export const imgDataGF = [
     {id: 7, url: Pic7},
     {id: 8, url: Pic8},
     {id: 9, url: Pic9},
-    {id: 10, url: Pic10}
+    {id: 10, url: Pic10},
 ]
 
 export const imgDataFF = [
@@ -42,5 +47,9 @@ export const imgDataFF = [
     {id: 17, url: Pic17},
     {id: 18, url: Pic18},
     {id: 19, url: Pic19},
-    {id: 20, url: Pic20}
+    {id: 20, url: Pic20},
+    {id: 21, url: Pic21},
+    {id: 22, url: Pic22},
+    {id: 23, url: Pic23},
+    {id: 24, url: Pic24}
 ]

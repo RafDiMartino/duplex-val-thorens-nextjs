@@ -63,7 +63,7 @@ const Carousel = ({ data }) => {
                             spaceBetween: 10
                         }
                     }}
-                    loop={true}
+                    loop={false}
                     navigation={true}
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
