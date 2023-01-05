@@ -17,11 +17,13 @@
     },
     "headers": {
         "page_title_home": "Welcome",
-        "title_home": "We are delighted to offer you the opportunity to rent our 80 square metres (861 square feet) duplex apartment, located on the top floor of the residence “Les Lauzieres”.",
+        "title_home": "We are delighted to offer you the opportunity to rent our 80 square metres (861 square feet) duplex apartment, located on the top floor of the residence “Les Ltozieres”.",
         "page_title_apartment": "The Apartment",
         "title_apartment": "Details & Photos",
         "page_title_rates": "Rates 2022 - 2023",
         "title_rates": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
+        "page_title_rates2": "Rates 2023 - 2024",
+        "title_rates2": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
         "page_title_maps": "Maps",
         "title_maps": "Val Thorens",
         "page_title_contacts": "Contact Us",
@@ -88,7 +90,7 @@
     },
     "rates": {
         "period": "Period",
-        "weekly_rates": "Weekly Rates",
+        "weekly_rates": "Weekly Rate",
         "short_stay_title": "Short Stays",
         "short_stay": "We offer the possibility for short stays depending on the period and provided that the stay includes a minimum of 2 consecutive nights:",
         "short_stay2": "Week nights: 400€/night",
@@ -137,6 +139,63 @@
                 "months2": "15 April to 22 April 2023",
                 "months3": "22 April to 29 April 2023",
                 "months4": "29 April to 06 May 2023"
+            }
+        }
+    },
+    "rates2": {
+        "period": "Period",
+        "weekly_rates": "Weekly Rate",
+        "short_stay_title": "Short Stays",
+        "short_stay": "We offer the possibility for short stays depending on the period and provided that the stay includes a minimum of 2 consecutive nights:",
+        "short_stay2": "Week nights: 400€/night",
+        "short_stay3": "Weekends: 450€/night",
+        "seasons": {
+            "season_start": {
+                "season_title": "Beginning of Season",
+                "months": "18 November to 25 December 2023",
+                "months2": "25 December to 2 December 2023",
+                "months3": "2 December to 9 December 2023",
+                "months4": "9 December to 16 December 2023",
+                "months5": "16 December to 23 December 2023"
+            },
+            "christmas": {
+                "season_title": "Christmas & New Year",
+                "months": "23 December to 30 December 2023",
+                "months2": "30 December 2023 to 06 January 2024"
+            },
+            "season_low": {
+                "season_title": "Low Season",
+                "months": "02 January to 08 January 2022",
+                "months2": "08 January to 22 January 2022"
+            },
+            "season_mid": {
+                "season_title": "Mid Season",
+                "months": "06 January to 13 January 2024",
+                "months2": "13 January to 20 January 2024",
+                "months3": "20 January to 27 January 2024",
+                "months4": "27 January to 03 February 2024",
+                "months5": "03 February to 10 February 2024"
+            },
+            "season_high": {
+                "season_title": "High Season",
+                "months": "10 February to 17 February 2024",
+                "months2": "17 February to 24 February 2024",
+                "months3": "24 February to 02 March 2024",
+                "months4": "02 March to 09 March 2024"
+            },
+            "season_mid2": {
+                "season_title": "Mid Season",
+                "months": "09 March to 16 March 2024",
+                "months2": "16 March to 23 March 2024",
+                "months3": "23 March to 30 March 2024",
+                "months4": "30 March to 06 April 2024"
+            },
+            "season_end": {
+                "season_title": "Easter 2024",
+                "months": "06 April to 13 April 2024",
+                "months2": "13 April to 20 April 2024",
+                "months3": "20 April to 27 April 2024",
+                "months4": "27 April to 04 May 2024"
             }
         }
     },

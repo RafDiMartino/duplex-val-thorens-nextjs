@@ -23,6 +23,8 @@
         "title_apartment": "Détails & Photos",
         "page_title_rates": "Tarifs 2022 - 2023",
         "title_rates": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
+        "page_title_rates2": "Tarifs 2023 - 2024",
+        "title_rates2": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
         "page_title_maps": "Cartes",
         "title_maps": "Val Thorens",
         "page_title_contacts": "Contactez-nous",
@@ -89,7 +91,7 @@
     },
     "rates": {
         "period": "Période",
-        "weekly_rates": "Tarifs Semaine",
+        "weekly_rates": "Tarif Semaine",
         "short_stay_title": "Courts Séjours",
         "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives :",
         "short_stay2": "Tarifs par nuit en semaine : 400€",
@@ -97,32 +99,32 @@
         "seasons": {
             "season_start": {
                 "season_title": "Début de Saison",
-                "months": "19 Novembre to 10 Décembre 2023",
-                "months2": "10 Décembre to 17 Décembre 2023",
-                "months3": "17 Décembre to 24 Décembre 2023"
+                "months": "19 Novembre au 10 Décembre 2022",
+                "months2": "10 Décembre au 17 Décembre 2022",
+                "months3": "17 Décembre au 24 Décembre 2022"
             },
             "christmas": {
                 "season_title": "Noël et Jour de l'An",
-                "months": "24 Décembre to 31 Décembre 2023",
-                "months2": "31 Décembre 2023 to 07 Janvier 2023"
+                "months": "24 Décembre au 31 Décembre 2022",
+                "months2": "31 Décembre 2022 au 07 Janvier 2023"
             },
             "season_low": {
                 "season_title": "Basse Saison",
-                "months": "02 Janvier to 08 Janvier 2023",
-                "months2": "08 Janvier to 22 Janvier 2023"
+                "months": "02 Janvier au 08 Janvier 2023",
+                "months2": "08 Janvier au 22 Janvier 2023"
             },
             "season_mid": {
                 "season_title": "Moyenne Saison",
-                "months": "07 Janvier to 21 Janvier 2023",
-                "months2": "21 Janvier to 28 Janvier 2023",
-                "months3": "28 Janvier to 04 February 2023"
+                "months": "07 Janvier au 21 Janvier 2023",
+                "months2": "21 Janvier au 28 Janvier 2023",
+                "months3": "28 Janvier au 04 Janvier 2023"
             },
             "season_high": {
                 "season_title": "Vacances de Février",
-                "months": "04 Février to 11 Février 2023",
-                "months2": "11 Février to 18 Février 2023",
-                "months3": "18 Février to 25 Février 2023",
-                "months4": "25 Février to 04 Mars 2023"
+                "months": "04 Février au 11 Février 2023",
+                "months2": "11 Février au 18 Février 2023",
+                "months3": "18 Février au 25 Février 2023",
+                "months4": "25 Février au 04 Mars 2023"
             },
             "season_mid2": {
                 "season_title": "Moyenne Saison",
@@ -138,6 +140,63 @@
                 "months2": "15 Avril au 22 Avril 2023",
                 "months3": "22 Avril au 29 Avril 2023",
                 "months4": "29 Avril au 06 Mai 2023"
+            }
+        }
+    },
+    "rates2": {
+        "period": "Période",
+        "weekly_rates": "Tarif Semaine",
+        "short_stay_title": "Courts Séjours",
+        "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives :",
+        "short_stay2": "Tarifs par nuit en semaine : 400€",
+        "short_stay3": "Tarifs par nuit en week end : 450€",
+        "seasons": {
+            "season_start": {
+                "season_title": "Début de Saison",
+                "months": "18 Novembre au 25 Novembre 2023",
+                "months2": "25 Novembre au 2 Décembre 2023",
+                "months3": "2 Décembre au 9 Décembre 2023",
+                "months4": "9 Décembre au 16 Décembre 2023",
+                "months5": "16 Décembre au 23 Décembre 2023"
+            },
+            "christmas": {
+                "season_title": "Noël et Jour de l'An",
+                "months": "23 Décembre au 30 Décembre 2023",
+                "months2": "30 Décembre 2023 au 06 Janvier 2024"
+            },
+            "season_low": {
+                "season_title": "Basse Saison",
+                "months": "02 Janvier au 08 Janvier 2023",
+                "months2": "08 Janvier au 22 Janvier 2023"
+            },
+            "season_mid": {
+                "season_title": "Moyenne Saison",
+                "months": "06 Janvier au 13 Janvier 2024",
+                "months2": "13 Janvier au 20 Janvier 2024",
+                "months3": "20 Janvier au 27 Janvier 2024",
+                "months4": "27 Janvier au 03 Février 2024",
+                "months5": "03 Février au 10 Février 2024"
+            },
+            "season_high": {
+                "season_title": "Vacances de Février",
+                "months": "10 Février au 17 Février 2024",
+                "months2": "17 Février au 24 Février 2024",
+                "months3": "24 Février au 02 Mars 2024",
+                "months4": "02 Mars au 09 Mars 2024"
+            },
+            "season_mid2": {
+                "season_title": "Moyenne Saison",
+                "months": "09 Mars au 16 Mars 2024",
+                "months2": "16 Mars au 23 Mars 2024",
+                "months3": "23 Mars au 30 Mars 2024",
+                "months4": "30 Mars au 06 Avril 2024"
+            },
+            "season_end": {
+                "season_title": "Vacances de Pâques 2024",
+                "months": "06 Avril au 13 Avril 2024",
+                "months2": "13 Avril au 20 Avril 2024",
+                "months3": "20 Avril au 27 Avril 2024",
+                "months4": "27 Avril au 04 Mai 2024"
             }
         }
     },

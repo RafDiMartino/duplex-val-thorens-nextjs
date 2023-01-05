@@ -8,6 +8,7 @@ import Pic7 from "../assets/ground-floor/gf6.webp"
 import Pic8 from "../assets/ground-floor/gf7.webp"
 import Pic9 from "../assets/ground-floor/gf8.webp"
 import Pic10 from "../assets/ground-floor/gf9.webp"
+import Pic25 from "../assets/ground-floor/gf-plan.webp"
 
 import Pic11 from "../assets/first-floor/ff.webp"
 import Pic12 from "../assets/first-floor/ff1.webp"
@@ -35,6 +36,7 @@ export const imgDataGF = [
     {id: 8, url: Pic8},
     {id: 9, url: Pic9},
     {id: 10, url: Pic10},
+    {id: 25, url: Pic25},
 ]
 
 export const imgDataFF = [
