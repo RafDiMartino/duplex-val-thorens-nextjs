@@ -50,7 +50,7 @@ function Rates() {
                 period2={t("common:rates.seasons.season_low.months2")}
                 rates2="2500€"
             /> */}
-            <RatesTable 
+            {/* <RatesTable 
                 season={t("common:rates.seasons.season_mid.season_title")}
                 period={t("common:rates.seasons.season_mid.months")}
                 rates="2600€"
@@ -58,8 +58,8 @@ function Rates() {
                 rates2="3000€"
                 period3={t("common:rates.seasons.season_mid.months3")}
                 rates3="3250€"
-            />
-            <RatesTable 
+            /> */}
+            {/* <RatesTable 
                 season={t("common:rates.seasons.season_high.season_title")}
                 period={t("common:rates.seasons.season_high.months")}
                 rates="4150€"
@@ -69,8 +69,8 @@ function Rates() {
                 rates3="4150€"
                 period4={t("common:rates.seasons.season_high.months4")}
                 rates4="4150€"
-            />
-            <RatesTable 
+            /> */}
+            {/* <RatesTable 
                 season={t("common:rates.seasons.season_mid2.season_title")}
                 period={t("common:rates.seasons.season_mid2.months")}
                 rates="3250€"
@@ -82,7 +82,7 @@ function Rates() {
                 rates4="2850€"
                 period5={t("common:rates.seasons.season_mid2.months5")}
                 rates5="2850€"
-            />
+            /> */}
             <RatesTable 
                 season={t("common:rates.seasons.season_end.season_title")}
                 period={t("common:rates.seasons.season_end.months")}
