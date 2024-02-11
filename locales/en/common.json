@@ -20,7 +20,7 @@
         "title_home": "We are delighted to offer you the opportunity to rent our 80 square metres (861 square feet) duplex apartment, located on the top floor of the residence “Les Ltozieres”.",
         "page_title_apartment": "The Apartment",
         "title_apartment": "Details & Photos",
-        "page_title_rates": "Rates 2023 - 2024",
+        "page_title_rates": "Rates 2024 - 2025",
         "title_rates": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
         "page_title_rates2": "Rates 2023 - 2024",
         "title_rates2": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
@@ -98,47 +98,50 @@
         "seasons": {
             "season_start": {
                 "season_title": "Beginning of Season",
-                "months": "19 November to 10 December 2022",
-                "months2": "10 December to 17 December 2022",
-                "months3": "17 December to 24 December 2022"
+                "months": "23 November to 30 November 2024",
+                "months2": "30 November to 7 December 2024",
+                "months3": "7 December to 14 December 2024",
+                "months4": "14 December to 21 December 2024"
             },
             "christmas": {
                 "season_title": "Christmas & New Year",
-                "months": "24 December to 31 December 2022",
-                "months2": "31 December 2022 to 07 January 2023"
+                "months": "21 December to 28 December 2024",
+                "months2": "28 December 2024 to 04 January 2025"
             },
             "season_low": {
                 "season_title": "Low Season",
-                "months": "02 January to 08 January 2022",
-                "months2": "08 January to 22 January 2022"
+                "months": "04 January to 11 January 2025",
+                "months2": "11 January to 18 January 2025"
             },
             "season_mid": {
                 "season_title": "Mid Season",
-                "months": "07 January to 21 January 2023",
-                "months2": "21 January to 28 January 2023",
-                "months3": "28 January to 04 February 2023"
+                "months": "04 January to 11 January 2025",
+                "months2": "11 January to 18 January 2025",
+                "months3": "18 January to 25 January 2025",
+                "months4": "25 January to 01 February 2025",
+                "months5": "01 February to 08 February 2025"
             },
             "season_high": {
                 "season_title": "High Season",
-                "months": "04 February to 11 February 2023",
-                "months2": "11 February to 18 February 2023",
-                "months3": "18 February to 25 February 2023",
-                "months4": "25 February to 04 March 2023"
+                "months": "08 February to 15 February 2025",
+                "months2": "15 February to 22 February 2025",
+                "months3": "22 February to 01 March 2025",
+                "months4": "01 March to 08 March 2025"
             },
             "season_mid2": {
                 "season_title": "Mid Season",
-                "months": "04 March to 11 March 2023",
-                "months2": "11 March to 18 March 2023",
-                "months3": "18 March to 25 March 2023",
-                "months4": "25 March to 01 April 2023",
-                "months5": "01 April to 08 April 2023"
+                "months": "08 March to 15 March 2025",
+                "months2": "15 March to 22 March 2025",
+                "months3": "22 March to 29 March 2025",
+                "months4": "29 March to 05 April 2025"
             },
             "season_end": {
-                "season_title": "Easter 2023",
-                "months": "08 April to 15 April 2023",
-                "months2": "15 April to 22 April 2023",
-                "months3": "22 April to 29 April 2023",
-                "months4": "29 April to 06 May 2023"
+                "season_title": "Easter 2025",
+                "months": "05 April to 12 April 2025",
+                "months2": "12 April to 19 April 2025",
+                "months3": "19 April to 26 April 2025",
+                "months4": "26 April to 03 May 2025",
+                "months5": "03 May to 10 May 2025"
             }
         }
     },

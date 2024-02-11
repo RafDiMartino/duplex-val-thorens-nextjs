@@ -6,7 +6,6 @@
         "rates": "Tarifs de location à la semaine pour l'année 2021/2023, avec possibilité de cours séjours.",
         "maps": "Cartes de la station de ski de Val Thorens.",
         "contacts": "Pour toute demande de location ou d'information, n'hesitez pas à nous contacter."
-        
     },
     "navbar": {
         "duplex": "Location appartement Val Thorens 8 ou 10 personnes",
@@ -99,14 +98,15 @@
         "seasons": {
             "season_start": {
                 "season_title": "Début de Saison",
-                "months": "19 Novembre au 10 Décembre 2022",
-                "months2": "10 Décembre au 17 Décembre 2022",
-                "months3": "17 Décembre au 24 Décembre 2022"
+                "months": "23 Novembre au 30 Novembre 2024",
+                "months2": "30 Novembre au 7 Décembre 2024",
+                "months3": "7 Décembre au 14 Décembre 2024",
+                "months4": "14 Décembre au 21 Décembre 2024"
             },
             "christmas": {
                 "season_title": "Noël et Jour de l'An",
-                "months": "24 Décembre au 31 Décembre 2022",
-                "months2": "31 Décembre 2022 au 07 Janvier 2023"
+                "months": "21 Décembre au 28 Décembre 2024",
+                "months2": "28 Décembre 2024 au 04 Janvier 2025"
             },
             "season_low": {
                 "season_title": "Basse Saison",
@@ -115,31 +115,33 @@
             },
             "season_mid": {
                 "season_title": "Moyenne Saison",
-                "months": "07 Janvier au 21 Janvier 2023",
-                "months2": "21 Janvier au 28 Janvier 2023",
-                "months3": "28 Janvier au 04 Janvier 2023"
+                "months": "04 Janvier au 11 Janvier 2025",
+                "months2": "11 Janvier au 18 Janvier 2025",
+                "months3": "18 Janvier au 25 Janvier 2025",
+                "months4": "25 Janvier au 01 Février 2025",
+                "months5": "01 Février au 08 Février 2025"
             },
             "season_high": {
                 "season_title": "Vacances de Février",
-                "months": "04 Février au 11 Février 2023",
-                "months2": "11 Février au 18 Février 2023",
-                "months3": "18 Février au 25 Février 2023",
-                "months4": "25 Février au 04 Mars 2023"
+                "months": "08 Février au 15 Février 2025",
+                "months2": "15 Février au 22 Février 2025",
+                "months3": "22 Février au 01 Mars 2025",
+                "months4": "01 Mars au 08 Mars 2025"
             },
             "season_mid2": {
                 "season_title": "Moyenne Saison",
-                "months": "04 Mars au 11 Mars 2023",
-                "months2": "11 Mars au 18 Mars 2023",
-                "months3": "18 Mars au 25 Mars 2023",
-                "months4": "25 Mars au 01 Avril 2023",
-                "months5": "01 Avril au 08 Avril 2023"
+                "months": "08 Mars au 15 Mars 2025",
+                "months2": "15 Mars au 22 Mars 2025",
+                "months3": "22 Mars au 29 Mars 2025",
+                "months4": "29 Mars au 05 Avril 2025"
             },
             "season_end": {
                 "season_title": "Vacances de Pâques 2023",
-                "months": "08 Avril au 15 Avril 2023",
-                "months2": "15 Avril au 22 Avril 2023",
-                "months3": "22 Avril au 29 Avril 2023",
-                "months4": "29 Avril au 06 Mai 2023"
+                "months": "05 Avril au 12 Avril 2025",
+                "months2": "12 Avril au 19 Avril 2025",
+                "months3": "19 Avril au 26 Avril 2025",
+                "months4": "26 Avril au 03 Mai 2025",
+                "months5": "03 Mai au 10 Mai 2025"
             }
         }
     },
