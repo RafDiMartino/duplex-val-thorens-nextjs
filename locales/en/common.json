@@ -22,7 +22,7 @@
         "title_apartment": "Details & Photos",
         "page_title_rates": "Rates 2024 - 2025",
         "title_rates": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
-        "page_title_rates2": "Rates 2023 - 2024",
+        "page_title_rates2": "Rates 2025 - 2026",
         "title_rates2": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
         "page_title_maps": "Maps",
         "title_maps": "Val Thorens",
@@ -98,15 +98,15 @@
         "seasons": {
             "season_start": {
                 "season_title": "Beginning of Season",
-                "months": "23 November to 30 November 2024",
-                "months2": "30 November to 7 December 2024",
-                "months3": "7 December to 14 December 2024",
-                "months4": "14 December to 21 December 2024"
+                "months": "22 November to 29 November 2025",
+                "months2": "29 November to 6 December 2025",
+                "months3": "6 December to 13 December 2025",
+                "months4": "13 December to 20 December 2025"
             },
             "christmas": {
                 "season_title": "Christmas & New Year",
-                "months": "21 December to 28 December 2024",
-                "months2": "28 December 2024 to 04 January 2025"
+                "months": "20 December to 27 December 2025",
+                "months2": "27 December 2024 to 03 January 2026"
             },
             "season_low": {
                 "season_title": "Low Season",
