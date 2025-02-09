@@ -23,19 +23,6 @@ function Rates() {
                 h2={t("common:headers.title_rates")}
             />
             <RatesTable
-                season={t("common:rates.seasons.season_mid.season_title")}
-                period={t("common:rates.seasons.season_mid.months")}
-                rates="3100€"
-                period2={t("common:rates.seasons.season_mid.months2")}
-                rates2="3100€"
-                period3={t("common:rates.seasons.season_mid.months3")}
-                rates3="3400€"
-                period4={t("common:rates.seasons.season_mid.months4")}
-                rates4="3400€"
-                period5={t("common:rates.seasons.season_mid.months5")}
-                rates5="3400€"
-            />
-            <RatesTable
                 season={t("common:rates.seasons.season_high.season_title")}
                 period={t("common:rates.seasons.season_high.months")}
                 rates="4500€"
@@ -91,6 +78,19 @@ function Rates() {
                 rates="4350€"
                 period2={t("common:rates.seasons.christmas.months2")}
                 rates2="4950€"
+            />
+            <RatesTable
+                season={t("common:rates.seasons.season_mid.season_title")}
+                period={t("common:rates.seasons.season_mid.months")}
+                rates="3400€"
+                period2={t("common:rates.seasons.season_mid.months2")}
+                rates2="3400€"
+                period3={t("common:rates.seasons.season_mid.months3")}
+                rates3="3600€"
+                period4={t("common:rates.seasons.season_mid.months4")}
+                rates4="3600€"
+                period5={t("common:rates.seasons.season_mid.months5")}
+                rates5="3600€"
             />
             <div className={classes["short-stay-wrapper"]}>
                 <h1 className={classes["h1-short-stay"]}>{t("common:rates.short_stay_title")}</h1>
