@@ -1,218 +1,218 @@
-{   
-    "head": {
-        "success" : "Success",
-        "home": "Book your ski holidays in Val Thorens. To rent: Duplex apartment for 8 to 10 people with 5 bedrooms and direct access to the slopes of the 3 Vallées ski resort.",
-        "apartment": "80m2 top floor appartement for 8 to 10 people, with 5 bedrooms and 2 bathrooms.",
-        "rates": "Weekly holiday rental rates for the year 2021/2022, with possibility for short stays.",
-        "maps": "Maps of Val Thorens.",
-        "contacts": "Don’t hesitate to contact us for booking requests, or if you need any other information."
+{
+  "head": {
+    "success": "Success",
+    "home": "Book your ski holidays in Val Thorens. To rent: Duplex apartment for 8 to 10 people with 5 bedrooms and direct access to the slopes of the 3 Vallées ski resort.",
+    "apartment": "80m2 top floor appartement for 8 to 10 people, with 5 bedrooms and 2 bathrooms.",
+    "rates": "Weekly holiday rental rates for the year 2021/2022, with possibility for short stays.",
+    "maps": "Maps of Val Thorens.",
+    "contacts": "Don’t hesitate to contact us for booking requests, or if you need any other information."
+  },
+  "navbar": {
+    "duplex": "Ski accomodation Val Thorens 8 or 10 people",
+    "home": "Home",
+    "apartment": "The Apartment",
+    "rates": "Rates",
+    "maps": "Maps",
+    "contacts": "Contacts"
+  },
+  "headers": {
+    "page_title_home": "Welcome",
+    "title_home": "We are delighted to offer you the opportunity to rent our 80 square metres (861 square feet) duplex apartment, located on the top floor of the residence “Les Ltozieres”.",
+    "page_title_apartment": "The Apartment",
+    "title_apartment": "Details & Photos",
+    "page_title_rates": "Rates 2024 - 2025",
+    "title_rates": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
+    "page_title_rates2": "Rates 2025 - 2026",
+    "title_rates2": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
+    "page_title_maps": "Maps",
+    "title_maps": "Val Thorens",
+    "page_title_contacts": "Contact Us",
+    "title_contacts": "Please contact us if you would like to book this appartement, or if you need additional information."
+  },
+  "home": {
+    "first_paragraph": "This apartment offers one of the most amazing views of the slopes and the mountains, its fantastic location allows you to ski right up to the building entrance.",
+    "second_paragraph": "It accommodates up to 10 people in a quiet, guarded and safe residence. Right in the heart of Val Thorens, the building is only 50 metres away from the sports & shopping centre.",
+    "third_paragraph": "All beds will be freshly made ready to welcome you. Clean shower/bath towels for each of you are provided, along with a kitchen towel set."
+  },
+  "apartment": {
+    "ground_floor": {
+      "groundFloor": "Ground Floor",
+      "first_li": "Large living/dining room with a big corner sofa, coffee table, stools, dinner table",
+      "second_li": "Kitchen area",
+      "third_li": "Balcony",
+      "fourth_li": "Ski shoes closet",
+      "fifth_li": "Toilet"
     },
-    "navbar": {
-        "duplex": "Ski accomodation Val Thorens 8 or 10 people",
-        "home": "Home",
-        "apartment": "The Apartment",
-        "rates": "Rates",
-        "maps": "Maps",
-        "contacts": "Contacts"
+    "first_floor": {
+      "firstFloor": "First Floor",
+      "first_li": "3 double bedrooms with 160x200cm King size beds",
+      "second_li": "1 double bedroom with 140x190cm Double bed",
+      "third_li": "1 cabin with 2 80x190cm single beds (bunk bed)",
+      "fourth_li": "Extra wardrobe and storage space",
+      "fifth_li": "1 bathroom with a bathtub and toilet",
+      "sixth_li": "1 bathroom with a shower"
     },
-    "headers": {
-        "page_title_home": "Welcome",
-        "title_home": "We are delighted to offer you the opportunity to rent our 80 square metres (861 square feet) duplex apartment, located on the top floor of the residence “Les Ltozieres”.",
-        "page_title_apartment": "The Apartment",
-        "title_apartment": "Details & Photos",
-        "page_title_rates": "Rates 2024 - 2025",
-        "title_rates": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
-        "page_title_rates2": "Rates 2025 - 2026",
-        "title_rates2": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
-        "page_title_maps": "Maps",
-        "title_maps": "Val Thorens",
-        "page_title_contacts": "Contact Us",
-        "title_contacts": "Please contact us if you would like to book this appartement, or if you need additional information."
+    "equipment": {
+      "equipmentTitle": "Equipment",
+      "fridge": "Fridge & Freezer",
+      "washing_machine": "Washing Machine & Dryer",
+      "dishwasher": "Dishwasher",
+      "microwave": "Microwave",
+      "oven": "Oven",
+      "toaster": "Toaster",
+      "raclette": "Raclette Grill",
+      "foundue": "Fondue Set",
+      "coffe": "Nespresso Coffee Machine",
+      "filter_coffe": "Filter Coffee Machine",
+      "kettle": "Kettle",
+      "vacuum": "Vacuum Cleaner",
+      "iron": "Iron & Ironing Board",
+      "hair_dryer": "Hair Dryer",
+      "baby_bed": "Baby Bed on Request",
+      "ski_closet": "Ski Closet"
     },
-    "home": {
-        "first_paragraph": "This apartment offers one of the most amazing views of the slopes and the mountains, its fantastic location allows you to ski right up to the building entrance.",
-        "second_paragraph": "It accommodates up to 10 people in a quiet, guarded and safe residence. Right in the heart of Val Thorens, the building is only 50 metres away from the sports & shopping centre.",
-        "third_paragraph": "All beds will be freshly made ready to welcome you. Clean shower/bath towels for each of you are provided, along with a kitchen towel set."
+    "entertainment": {
+      "entertainmentTitle": "Entertainment",
+      "wifi": "Free WIFI",
+      "tv": "3 Flat Screen TVs",
+      "dvd": "DVD Player",
+      "xbox": "XBOX 360",
+      "games": "Board Games",
+      "books": "Books"
     },
-    "apartment": {
-        "ground_floor": {
-            "groundFloor": "Ground Floor",
-            "first_li": "Large living/dining room with a big corner sofa, coffee table, stools, dinner table",
-            "second_li": "Kitchen area",
-            "third_li": "Balcony",
-            "fourth_li": "Ski shoes closet",
-            "fifth_li": "Toilet"
-        },
-        "first_floor": {
-            "firstFloor": "First Floor",
-            "first_li": "3 double bedrooms with 160x200cm King size beds",
-            "second_li": "1 double bedroom with 140x190cm Double bed",
-            "third_li": "1 cabin with 2 80x190cm single beds (bunk bed)",
-            "fourth_li": "Extra wardrobe and storage space",
-            "fifth_li": "1 bathroom with a bathtub and toilet",
-            "sixth_li": "1 bathroom with a shower"
-        },
-        "equipment": {
-            "equipmentTitle": "Equipment",
-            "fridge": "Fridge & Freezer",
-            "washing_machine": "Washing Machine & Dryer",
-            "dishwasher": "Dishwasher",
-            "microwave": "Microwave",
-            "oven": "Oven",
-            "toaster": "Toaster",
-            "raclette": "Raclette Grill",
-            "foundue": "Fondue Set",
-            "coffe": "Nespresso Coffee Machine",
-            "filter_coffe": "Filter Coffee Machine",
-            "kettle": "Kettle",
-            "vacuum": "Vacuum Cleaner",
-            "iron": "Iron & Ironing Board",
-            "hair_dryer": "Hair Dryer",
-            "baby_bed": "Baby Bed on Request",
-            "ski_closet": "Ski Closet"
-        },
-        "entertainment": {
-            "entertainmentTitle": "Entertainment",
-            "wifi": "Free WIFI",
-            "tv": "3 Flat Screen TVs",
-            "dvd": "DVD Player",
-            "xbox": "XBOX 360",
-            "games": "Board Games",
-            "books": "Books"
-        },
-        "suitability": {
-            "suitabilityTitle": "Suitability",
-            "children": "Children welcome",
-            "smoking": "This is a non-smoking apartment, but smoking is permitted on the balcony",
-            "pets": "Pets not allowed",
-            "wheelchair": "Wheelchair inaccessible"
-        }
-    },
-    "rates": {
-        "period": "Period",
-        "weekly_rates": "Weekly Rate",
-        "short_stay_title": "Short Stays",
-        "short_stay": "We offer the possibility for short stays depending on the period and provided that the stay includes a minimum of 2 consecutive nights:",
-        "short_stay2": "Week nights: 400€/night",
-        "short_stay3": "Weekends: 450€/night",
-        "seasons": {
-            "season_start": {
-                "season_title": "Beginning of Season",
-                "months": "22 November to 29 November 2025",
-                "months2": "29 November to 6 December 2025",
-                "months3": "6 December to 13 December 2025",
-                "months4": "13 December to 20 December 2025"
-            },
-            "christmas": {
-                "season_title": "Christmas & New Year",
-                "months": "20 December to 27 December 2025",
-                "months2": "27 December 2025 to 03 January 2026"
-            },
-            "season_low": {
-                "season_title": "Low Season",
-                "months": "04 January to 11 January 2025",
-                "months2": "11 January to 18 January 2025"
-            },
-            "season_mid": {
-                "season_title": "Mid Season",
-                "months": "03 January to 10 January 2026",
-                "months2": "10 January to 17 January 2026",
-                "months3": "17 January to 24 January 2026",
-                "months4": "24 January to 31 January 2026",
-                "months5": "31 January to 07 February 2026"
-            },
-            "season_high": {
-                "season_title": "High Season",
-                "months": "08 February to 15 February 2025",
-                "months2": "15 February to 22 February 2025",
-                "months3": "22 February to 01 March 2025",
-                "months4": "01 March to 08 March 2025"
-            },
-            "season_mid2": {
-                "season_title": "Mid Season",
-                "months": "08 March to 15 March 2025",
-                "months2": "15 March to 22 March 2025",
-                "months3": "22 March to 29 March 2025",
-                "months4": "29 March to 05 April 2025"
-            },
-            "season_end": {
-                "season_title": "Easter 2025",
-                "months": "05 April to 12 April 2025",
-                "months2": "12 April to 19 April 2025",
-                "months3": "19 April to 26 April 2025",
-                "months4": "26 April to 03 May 2025",
-                "months5": "03 May to 10 May 2025"
-            }
-        }
-    },
-    "rates2": {
-        "period": "Period",
-        "weekly_rates": "Weekly Rate",
-        "short_stay_title": "Short Stays",
-        "short_stay": "We offer the possibility for short stays depending on the period and provided that the stay includes a minimum of 2 consecutive nights:",
-        "short_stay2": "Week nights: 400€/night",
-        "short_stay3": "Weekends: 450€/night",
-        "seasons": {
-            "season_start": {
-                "season_title": "Beginning of Season",
-                "months": "18 November to 25 December 2023",
-                "months2": "25 December to 2 December 2023",
-                "months3": "2 December to 9 December 2023",
-                "months4": "9 December to 16 December 2023",
-                "months5": "16 December to 23 December 2023"
-            },
-            "christmas": {
-                "season_title": "Christmas & New Year",
-                "months": "23 December to 30 December 2023",
-                "months2": "30 December 2023 to 06 January 2024"
-            },
-            "season_low": {
-                "season_title": "Low Season",
-                "months": "02 January to 08 January 2022",
-                "months2": "08 January to 22 January 2022"
-            },
-            "season_mid": {
-                "season_title": "Mid Season",
-                "months": "06 January to 13 January 2024",
-                "months2": "13 January to 20 January 2024",
-                "months3": "20 January to 27 January 2024",
-                "months4": "27 January to 03 February 2024",
-                "months5": "03 February to 10 February 2024"
-            },
-            "season_high": {
-                "season_title": "High Season",
-                "months": "10 February to 17 February 2024",
-                "months2": "17 February to 24 February 2024",
-                "months3": "24 February to 02 March 2024",
-                "months4": "02 March to 09 March 2024"
-            },
-            "season_mid2": {
-                "season_title": "Mid Season",
-                "months": "09 March to 16 March 2024",
-                "months2": "16 March to 23 March 2024",
-                "months3": "23 March to 30 March 2024",
-                "months4": "30 March to 06 April 2024"
-            },
-            "season_end": {
-                "season_title": "Easter 2024",
-                "months": "06 April to 13 April 2024",
-                "months2": "13 April to 20 April 2024",
-                "months3": "20 April to 27 April 2024",
-                "months4": "27 April to 04 May 2024"
-            }
-        }
-    },
-    "maps": {
-        "location_on_map": "The apartment building is number 12 on the map, under “QUARTIER SOLEIL – SOLEIL DISTRICT”."
-    },
-    "contacts": {
-        "full_name": "Full Name",
-        "email": "E-Mail",
-        "message": "Write your message here...",
-        "send": "Send"
-    },
-    "success": {
-        "thank_you": "Thank you for contacting us!",
-        "thank_you2": "We will get back to you as soon as possible."
+    "suitability": {
+      "suitabilityTitle": "Suitability",
+      "children": "Children welcome",
+      "smoking": "This is a non-smoking apartment, but smoking is permitted on the balcony",
+      "pets": "Pets not allowed",
+      "wheelchair": "Wheelchair inaccessible"
     }
+  },
+  "rates": {
+    "period": "Period",
+    "weekly_rates": "Weekly Rate",
+    "short_stay_title": "Short Stays",
+    "short_stay": "We offer the possibility for short stays depending on the period and provided that the stay includes a minimum of 2 consecutive nights:",
+    "short_stay2": "Week nights: 400€/night",
+    "short_stay3": "Weekends: 450€/night",
+    "seasons": {
+      "season_start": {
+        "season_title": "Beginning of Season",
+        "months": "22 November to 29 November 2025",
+        "months2": "29 November to 6 December 2025",
+        "months3": "6 December to 13 December 2025",
+        "months4": "13 December to 20 December 2025"
+      },
+      "christmas": {
+        "season_title": "Christmas & New Year",
+        "months": "20 December to 27 December 2025",
+        "months2": "27 December 2025 to 03 January 2026"
+      },
+      "season_low": {
+        "season_title": "Low Season",
+        "months": "04 January to 11 January 2025",
+        "months2": "11 January to 18 January 2025"
+      },
+      "season_mid": {
+        "season_title": "Mid Season",
+        "months": "03 January to 10 January 2026",
+        "months2": "10 January to 17 January 2026",
+        "months3": "17 January to 24 January 2026",
+        "months4": "24 January to 31 January 2026",
+        "months5": "31 January to 07 February 2026"
+      },
+      "season_high": {
+        "season_title": "High Season",
+        "months": "07 February to 14 February 2026",
+        "months2": "14 February to 21 February 2026",
+        "months3": "21 February to 27 February 2026",
+        "months4": "28 February to 07 March 2026"
+      },
+      "season_mid2": {
+        "season_title": "Mid Season",
+        "months": "07 March to 14 March 2026",
+        "months2": "14 March to 21 March 2026",
+        "months3": "21 March to 28 March 2026",
+        "months4": "28 March to 04 April 2026"
+      },
+      "season_end": {
+        "season_title": "Easter 2025",
+        "months": "05 April to 12 April 2025",
+        "months2": "12 April to 19 April 2025",
+        "months3": "19 April to 26 April 2025",
+        "months4": "26 April to 03 May 2025",
+        "months5": "03 May to 10 May 2025"
+      }
+    }
+  },
+  "rates2": {
+    "period": "Period",
+    "weekly_rates": "Weekly Rate",
+    "short_stay_title": "Short Stays",
+    "short_stay": "We offer the possibility for short stays depending on the period and provided that the stay includes a minimum of 2 consecutive nights:",
+    "short_stay2": "Week nights: 400€/night",
+    "short_stay3": "Weekends: 450€/night",
+    "seasons": {
+      "season_start": {
+        "season_title": "Beginning of Season",
+        "months": "18 November to 25 December 2023",
+        "months2": "25 December to 2 December 2023",
+        "months3": "2 December to 9 December 2023",
+        "months4": "9 December to 16 December 2023",
+        "months5": "16 December to 23 December 2023"
+      },
+      "christmas": {
+        "season_title": "Christmas & New Year",
+        "months": "23 December to 30 December 2023",
+        "months2": "30 December 2023 to 06 January 2024"
+      },
+      "season_low": {
+        "season_title": "Low Season",
+        "months": "02 January to 08 January 2022",
+        "months2": "08 January to 22 January 2022"
+      },
+      "season_mid": {
+        "season_title": "Mid Season",
+        "months": "06 January to 13 January 2024",
+        "months2": "13 January to 20 January 2024",
+        "months3": "20 January to 27 January 2024",
+        "months4": "27 January to 03 February 2024",
+        "months5": "03 February to 10 February 2024"
+      },
+      "season_high": {
+        "season_title": "High Season",
+        "months": "10 February to 17 February 2024",
+        "months2": "17 February to 24 February 2024",
+        "months3": "24 February to 02 March 2024",
+        "months4": "02 March to 09 March 2024"
+      },
+      "season_mid2": {
+        "season_title": "Mid Season",
+        "months": "09 March to 16 March 2024",
+        "months2": "16 March to 23 March 2024",
+        "months3": "23 March to 30 March 2024",
+        "months4": "30 March to 06 April 2024"
+      },
+      "season_end": {
+        "season_title": "Easter 2024",
+        "months": "06 April to 13 April 2024",
+        "months2": "13 April to 20 April 2024",
+        "months3": "20 April to 27 April 2024",
+        "months4": "27 April to 04 May 2024"
+      }
+    }
+  },
+  "maps": {
+    "location_on_map": "The apartment building is number 12 on the map, under “QUARTIER SOLEIL – SOLEIL DISTRICT”."
+  },
+  "contacts": {
+    "full_name": "Full Name",
+    "email": "E-Mail",
+    "message": "Write your message here...",
+    "send": "Send"
+  },
+  "success": {
+    "thank_you": "Thank you for contacting us!",
+    "thank_you2": "We will get back to you as soon as possible."
+  }
 }

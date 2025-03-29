@@ -1,218 +1,218 @@
 {
-    "head": {
-        "success": "Succès",
-        "home": "Réservez votre location d'appartement de vacances dans la station de Val Thorens. À louer: Duplex pour 8 à 10 personnes avec 5 chambres aux pieds des pistes de ski du domaine skiable des 3 Vallées.",
-        "apartment": "Appartement de 80m2 au dernier étage avec 5 chambres et deux salles de bain, pouvant acceuillir 8 à 10 personnes.",
-        "rates": "Tarifs de location à la semaine pour l'année 2021/2023, avec possibilité de cours séjours.",
-        "maps": "Cartes de la station de ski de Val Thorens.",
-        "contacts": "Pour toute demande de location ou d'information, n'hesitez pas à nous contacter."
+  "head": {
+    "success": "Succès",
+    "home": "Réservez votre location d'appartement de vacances dans la station de Val Thorens. À louer: Duplex pour 8 à 10 personnes avec 5 chambres aux pieds des pistes de ski du domaine skiable des 3 Vallées.",
+    "apartment": "Appartement de 80m2 au dernier étage avec 5 chambres et deux salles de bain, pouvant acceuillir 8 à 10 personnes.",
+    "rates": "Tarifs de location à la semaine pour l'année 2021/2023, avec possibilité de cours séjours.",
+    "maps": "Cartes de la station de ski de Val Thorens.",
+    "contacts": "Pour toute demande de location ou d'information, n'hesitez pas à nous contacter."
+  },
+  "navbar": {
+    "duplex": "Location appartement Val Thorens 8 ou 10 personnes",
+    "home": "Acceuil",
+    "apartment": "L'Appartement",
+    "rates": "Tarifs",
+    "maps": "Cartes",
+    "contacts": "Contacts"
+  },
+  "headers": {
+    "page_title_home": "Bienvenue",
+    "title_home": "Nous vous proposons de louer notre grand duplex de 80 mètres carrés, situé au dernier étage de la résidence “Les Lauzieres”.",
+    "page_title_apartment": "L'Appartement",
+    "title_apartment": "Détails & Photos",
+    "page_title_rates": "Tarifs 2024 - 2025",
+    "title_rates": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
+    "page_title_rates2": "Tarifs 2025 - 2026",
+    "title_rates2": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
+    "page_title_maps": "Cartes",
+    "title_maps": "Val Thorens",
+    "page_title_contacts": "Contactez-nous",
+    "title_contacts": "Pour toute demande de location ou d'information, n'hesitez pas à nous contacter."
+  },
+  "home": {
+    "first_paragraph": "L'appartement vous offre une vue exceptionnelle sur les pistes et sur les montagnes, son emplacement permet un accès et retour skis aux pieds.",
+    "second_paragraph": "Notre appartement classé 5 flocons argent (label qualité hébergement) peut accueillir jusqu'à 10 personnes. Il vous offrira tout le confort au sein d'une résidence calme avec gardien située en plein cœur de la station. Le centre sportif et la galerie commerciale caron sont à 50m.",
+    "third_paragraph": "Afin de vous offrir le meilleur service possible, vous trouverez vos lits faits à l'arrivée, des serviettes de bains pour chacun d'entre vous, ainsi qu'un kit torchons pour la cuisine."
+  },
+  "apartment": {
+    "ground_floor": {
+      "groundFloor": "Rez-de-chaussée",
+      "first_li": "Séjour/salle à manger plein sud avec un grand canapé d'angle",
+      "second_li": "Coin cuisine équipée",
+      "third_li": "Balcon",
+      "fourth_li": "Placard à chaussures de ski",
+      "fifth_li": "WC"
     },
-    "navbar": {
-        "duplex": "Location appartement Val Thorens 8 ou 10 personnes",
-        "home": "Acceuil",
-        "apartment": "L'Appartement",
-        "rates": "Tarifs",
-        "maps": "Cartes",
-        "contacts": "Contacts"
+    "first_floor": {
+      "firstFloor": "Etage",
+      "first_li": "3 chambres doubles avec lits King size 160x200cm",
+      "second_li": "1 chambre double avec lit 140x190cm",
+      "third_li": "1 cabine avec lits superposés de 80x190cm",
+      "fourth_li": "Rangements supplémentaires dans le couloir",
+      "fifth_li": "1 salle de bain avec baignoire et WC",
+      "sixth_li": "1 salle de bain avec douche"
     },
-    "headers": {
-        "page_title_home": "Bienvenue",
-        "title_home": "Nous vous proposons de louer notre grand duplex de 80 mètres carrés, situé au dernier étage de la résidence “Les Lauzieres”.",
-        "page_title_apartment": "L'Appartement",
-        "title_apartment": "Détails & Photos",
-        "page_title_rates": "Tarifs 2024 - 2025",
-        "title_rates": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
-        "page_title_rates2": "Tarifs 2025 - 2026",
-        "title_rates2": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
-        "page_title_maps": "Cartes",
-        "title_maps": "Val Thorens",
-        "page_title_contacts": "Contactez-nous",
-        "title_contacts": "Pour toute demande de location ou d'information, n'hesitez pas à nous contacter."
+    "equipment": {
+      "equipmentTitle": "Équipement",
+      "fridge": "Réfrigérateur et Congélateur",
+      "washing_machine": "Lave Linge / Sèche-Linge",
+      "dishwasher": "Lave-Vaisselle",
+      "microwave": "Micro-Ondes",
+      "oven": "Four",
+      "toaster": "Grille-Pain",
+      "raclette": "Appareil à Raclette",
+      "foundue": "Appareil à Fondue",
+      "coffe": "Cafetière Nespresso",
+      "filter_coffe": "Cafetière Filtre",
+      "kettle": "Bouilloire",
+      "vacuum": "Aspirateur",
+      "iron": "Planche et Fer à Repasser",
+      "hair_dryer": "Sèche-Cheveux",
+      "baby_bed": "Lit Bébé sur Demande",
+      "ski_closet": "Casier à Ski"
     },
-    "home": {
-        "first_paragraph": "L'appartement vous offre une vue exceptionnelle sur les pistes et sur les montagnes, son emplacement permet un accès et retour skis aux pieds.",
-        "second_paragraph": "Notre appartement classé 5 flocons argent (label qualité hébergement) peut accueillir jusqu'à 10 personnes. Il vous offrira tout le confort au sein d'une résidence calme avec gardien située en plein cœur de la station. Le centre sportif et la galerie commerciale caron sont à 50m.",
-        "third_paragraph": "Afin de vous offrir le meilleur service possible, vous trouverez vos lits faits à l'arrivée, des serviettes de bains pour chacun d'entre vous, ainsi qu'un kit torchons pour la cuisine."
+    "entertainment": {
+      "entertainmentTitle": "Divertissement",
+      "wifi": "WIFI Gratuit",
+      "tv": "3 Téléviseurs à Écran Plat",
+      "dvd": "Lecteur DVD",
+      "xbox": "XBOX 360",
+      "games": "Jeux de Société",
+      "books": "Livres"
     },
-    "apartment": {
-        "ground_floor": {
-            "groundFloor": "Rez-de-chaussée",
-            "first_li": "Séjour/salle à manger plein sud avec un grand canapé d'angle",
-            "second_li": "Coin cuisine équipée",
-            "third_li": "Balcon",
-            "fourth_li": "Placard à chaussures de ski",
-            "fifth_li": "WC"
-        },
-        "first_floor": {
-            "firstFloor": "Etage",
-            "first_li": "3 chambres doubles avec lits King size 160x200cm",
-            "second_li": "1 chambre double avec lit 140x190cm",
-            "third_li": "1 cabine avec lits superposés de 80x190cm",
-            "fourth_li": "Rangements supplémentaires dans le couloir",
-            "fifth_li": "1 salle de bain avec baignoire et WC",
-            "sixth_li": "1 salle de bain avec douche"
-        },
-        "equipment": {
-            "equipmentTitle": "Équipement",
-            "fridge": "Réfrigérateur et Congélateur",
-            "washing_machine": "Lave Linge / Sèche-Linge",
-            "dishwasher": "Lave-Vaisselle",
-            "microwave": "Micro-Ondes",
-            "oven": "Four",
-            "toaster": "Grille-Pain",
-            "raclette": "Appareil à Raclette",
-            "foundue": "Appareil à Fondue",
-            "coffe": "Cafetière Nespresso",
-            "filter_coffe": "Cafetière Filtre",
-            "kettle": "Bouilloire",
-            "vacuum": "Aspirateur",
-            "iron": "Planche et Fer à Repasser",
-            "hair_dryer": "Sèche-Cheveux",
-            "baby_bed": "Lit Bébé sur Demande",
-            "ski_closet": "Casier à Ski"
-        },
-        "entertainment": {
-            "entertainmentTitle": "Divertissement",
-            "wifi": "WIFI Gratuit",
-            "tv": "3 Téléviseurs à Écran Plat",
-            "dvd": "Lecteur DVD",
-            "xbox": "XBOX 360",
-            "games": "Jeux de Société",
-            "books": "Livres"
-        },
-        "suitability": {
-            "suitabilityTitle": "Informations Complémentaires",
-            "children": "Enfants bienvenus",
-            "smoking": "Il s'agit d'un appartement non-fumeur, mais il est permis de fumer sur le balcon",
-            "pets": "Animaux non admis",
-            "wheelchair": "Pas d’accès pour les personnes à mobilité réduite"
-        }
-    },
-    "rates": {
-        "period": "Période",
-        "weekly_rates": "Tarif Semaine",
-        "short_stay_title": "Courts Séjours",
-        "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives :",
-        "short_stay2": "Tarifs par nuit en semaine : 400€",
-        "short_stay3": "Tarifs par nuit en week end : 450€",
-        "seasons": {
-            "season_start": {
-                "season_title": "Début de Saison",
-                "months": "22 Novembre au 29 Novembre 2025",
-                "months2": "29 Novembre au 6 Décembre 2025",
-                "months3": "6 Décembre au 13 Décembre 2025",
-                "months4": "13 Décembre au 20 Décembre 2025"
-            },
-            "christmas": {
-                "season_title": "Noël et Jour de l'An",
-                "months": "20 Décembre au 27 Décembre 2025",
-                "months2": "27 Décembre 2025 au 03 Janvier 2026"
-            },
-            "season_low": {
-                "season_title": "Basse Saison",
-                "months": "02 Janvier au 08 Janvier 2023",
-                "months2": "08 Janvier au 22 Janvier 2023"
-            },
-            "season_mid": {
-                "season_title": "Moyenne Saison",
-                "months": "03 Janvier au 10 Janvier 2026",
-                "months2": "10 Janvier au 17 Janvier 2026",
-                "months3": "17 Janvier au 24 Janvier 2026",
-                "months4": "24 Janvier au 31 Janvier 2026",
-                "months5": "31 Janvier au 07 Février 2026"
-            },
-            "season_high": {
-                "season_title": "Vacances de Février",
-                "months": "08 Février au 15 Février 2025",
-                "months2": "15 Février au 22 Février 2025",
-                "months3": "22 Février au 01 Mars 2025",
-                "months4": "01 Mars au 08 Mars 2025"
-            },
-            "season_mid2": {
-                "season_title": "Moyenne Saison",
-                "months": "08 Mars au 15 Mars 2025",
-                "months2": "15 Mars au 22 Mars 2025",
-                "months3": "22 Mars au 29 Mars 2025",
-                "months4": "29 Mars au 05 Avril 2025"
-            },
-            "season_end": {
-                "season_title": "Vacances de Pâques 2025",
-                "months": "05 Avril au 12 Avril 2025",
-                "months2": "12 Avril au 19 Avril 2025",
-                "months3": "19 Avril au 26 Avril 2025",
-                "months4": "26 Avril au 03 Mai 2025",
-                "months5": "03 Mai au 10 Mai 2025"
-            }
-        }
-    },
-    "rates2": {
-        "period": "Période",
-        "weekly_rates": "Tarif Semaine",
-        "short_stay_title": "Courts Séjours",
-        "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives :",
-        "short_stay2": "Tarifs par nuit en semaine : 400€",
-        "short_stay3": "Tarifs par nuit en week end : 450€",
-        "seasons": {
-            "season_start": {
-                "season_title": "Début de Saison",
-                "months": "18 Novembre au 25 Novembre 2023",
-                "months2": "25 Novembre au 2 Décembre 2023",
-                "months3": "2 Décembre au 9 Décembre 2023",
-                "months4": "9 Décembre au 16 Décembre 2023",
-                "months5": "16 Décembre au 23 Décembre 2023"
-            },
-            "christmas": {
-                "season_title": "Noël et Jour de l'An",
-                "months": "23 Décembre au 30 Décembre 2023",
-                "months2": "30 Décembre 2023 au 06 Janvier 2024"
-            },
-            "season_low": {
-                "season_title": "Basse Saison",
-                "months": "02 Janvier au 08 Janvier 2023",
-                "months2": "08 Janvier au 22 Janvier 2023"
-            },
-            "season_mid": {
-                "season_title": "Moyenne Saison",
-                "months": "06 Janvier au 13 Janvier 2024",
-                "months2": "13 Janvier au 20 Janvier 2024",
-                "months3": "20 Janvier au 27 Janvier 2024",
-                "months4": "27 Janvier au 03 Février 2024",
-                "months5": "03 Février au 10 Février 2024"
-            },
-            "season_high": {
-                "season_title": "Vacances de Février",
-                "months": "10 Février au 17 Février 2024",
-                "months2": "17 Février au 24 Février 2024",
-                "months3": "24 Février au 02 Mars 2024",
-                "months4": "02 Mars au 09 Mars 2024"
-            },
-            "season_mid2": {
-                "season_title": "Moyenne Saison",
-                "months": "09 Mars au 16 Mars 2024",
-                "months2": "16 Mars au 23 Mars 2024",
-                "months3": "23 Mars au 30 Mars 2024",
-                "months4": "30 Mars au 06 Avril 2024"
-            },
-            "season_end": {
-                "season_title": "Vacances de Pâques 2024",
-                "months": "06 Avril au 13 Avril 2024",
-                "months2": "13 Avril au 20 Avril 2024",
-                "months3": "20 Avril au 27 Avril 2024",
-                "months4": "27 Avril au 04 Mai 2024"
-            }
-        }
-    },
-    "maps": {
-        "location_on_map": "L'immeuble est le numéro 12 sur la carte."
-    },
-    "contacts": {
-        "full_name": "Nom",
-        "email": "E-Mail",
-        "message": "Écrivez votre message ici...",
-        "send": "Envoyer"
-    },
-    "success": {
-        "thank_you": "Merci de nous avoir contacté!",
-        "thank_you2": "Nous vous répondrons dans les meilleurs délais."
+    "suitability": {
+      "suitabilityTitle": "Informations Complémentaires",
+      "children": "Enfants bienvenus",
+      "smoking": "Il s'agit d'un appartement non-fumeur, mais il est permis de fumer sur le balcon",
+      "pets": "Animaux non admis",
+      "wheelchair": "Pas d’accès pour les personnes à mobilité réduite"
     }
+  },
+  "rates": {
+    "period": "Période",
+    "weekly_rates": "Tarif Semaine",
+    "short_stay_title": "Courts Séjours",
+    "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives :",
+    "short_stay2": "Tarifs par nuit en semaine : 400€",
+    "short_stay3": "Tarifs par nuit en week end : 450€",
+    "seasons": {
+      "season_start": {
+        "season_title": "Début de Saison",
+        "months": "22 Novembre au 29 Novembre 2025",
+        "months2": "29 Novembre au 6 Décembre 2025",
+        "months3": "6 Décembre au 13 Décembre 2025",
+        "months4": "13 Décembre au 20 Décembre 2025"
+      },
+      "christmas": {
+        "season_title": "Noël et Jour de l'An",
+        "months": "20 Décembre au 27 Décembre 2025",
+        "months2": "27 Décembre 2025 au 03 Janvier 2026"
+      },
+      "season_low": {
+        "season_title": "Basse Saison",
+        "months": "02 Janvier au 08 Janvier 2023",
+        "months2": "08 Janvier au 22 Janvier 2023"
+      },
+      "season_mid": {
+        "season_title": "Moyenne Saison",
+        "months": "03 Janvier au 10 Janvier 2026",
+        "months2": "10 Janvier au 17 Janvier 2026",
+        "months3": "17 Janvier au 24 Janvier 2026",
+        "months4": "24 Janvier au 31 Janvier 2026",
+        "months5": "31 Janvier au 07 Février 2026"
+      },
+      "season_high": {
+        "season_title": "Vacances de Février",
+        "months": "07 Février au 14 Février 2026",
+        "months2": "14 Février au 21 Février 2026",
+        "months3": "21 Février au 27 Février 2026",
+        "months4": "28 Février au 07 Mars 2026"
+      },
+      "season_mid2": {
+        "season_title": "Moyenne Saison",
+        "months": "07 Mars au 14 Mars 2026",
+        "months2": "14 Mars au 21 Mars 2026",
+        "months3": "21 Mars au 28 Mars 2026",
+        "months4": "28 Mars au 04 Avril 2026"
+      },
+      "season_end": {
+        "season_title": "Vacances de Pâques 2025",
+        "months": "05 Avril au 12 Avril 2025",
+        "months2": "12 Avril au 19 Avril 2025",
+        "months3": "19 Avril au 26 Avril 2025",
+        "months4": "26 Avril au 03 Mai 2025",
+        "months5": "03 Mai au 10 Mai 2025"
+      }
+    }
+  },
+  "rates2": {
+    "period": "Période",
+    "weekly_rates": "Tarif Semaine",
+    "short_stay_title": "Courts Séjours",
+    "short_stay": "Possibilité de courts séjours suivant périodes avec un minimum de 2 nuits consécutives :",
+    "short_stay2": "Tarifs par nuit en semaine : 400€",
+    "short_stay3": "Tarifs par nuit en week end : 450€",
+    "seasons": {
+      "season_start": {
+        "season_title": "Début de Saison",
+        "months": "18 Novembre au 25 Novembre 2023",
+        "months2": "25 Novembre au 2 Décembre 2023",
+        "months3": "2 Décembre au 9 Décembre 2023",
+        "months4": "9 Décembre au 16 Décembre 2023",
+        "months5": "16 Décembre au 23 Décembre 2023"
+      },
+      "christmas": {
+        "season_title": "Noël et Jour de l'An",
+        "months": "23 Décembre au 30 Décembre 2023",
+        "months2": "30 Décembre 2023 au 06 Janvier 2024"
+      },
+      "season_low": {
+        "season_title": "Basse Saison",
+        "months": "02 Janvier au 08 Janvier 2023",
+        "months2": "08 Janvier au 22 Janvier 2023"
+      },
+      "season_mid": {
+        "season_title": "Moyenne Saison",
+        "months": "06 Janvier au 13 Janvier 2024",
+        "months2": "13 Janvier au 20 Janvier 2024",
+        "months3": "20 Janvier au 27 Janvier 2024",
+        "months4": "27 Janvier au 03 Février 2024",
+        "months5": "03 Février au 10 Février 2024"
+      },
+      "season_high": {
+        "season_title": "Vacances de Février",
+        "months": "10 Février au 17 Février 2024",
+        "months2": "17 Février au 24 Février 2024",
+        "months3": "24 Février au 02 Mars 2024",
+        "months4": "02 Mars au 09 Mars 2024"
+      },
+      "season_mid2": {
+        "season_title": "Moyenne Saison",
+        "months": "09 Mars au 16 Mars 2024",
+        "months2": "16 Mars au 23 Mars 2024",
+        "months3": "23 Mars au 30 Mars 2024",
+        "months4": "30 Mars au 06 Avril 2024"
+      },
+      "season_end": {
+        "season_title": "Vacances de Pâques 2024",
+        "months": "06 Avril au 13 Avril 2024",
+        "months2": "13 Avril au 20 Avril 2024",
+        "months3": "20 Avril au 27 Avril 2024",
+        "months4": "27 Avril au 04 Mai 2024"
+      }
+    }
+  },
+  "maps": {
+    "location_on_map": "L'immeuble est le numéro 12 sur la carte."
+  },
+  "contacts": {
+    "full_name": "Nom",
+    "email": "E-Mail",
+    "message": "Écrivez votre message ici...",
+    "send": "Envoyer"
+  },
+  "success": {
+    "thank_you": "Merci de nous avoir contacté!",
+    "thank_you2": "Nous vous répondrons dans les meilleurs délais."
+  }
 }
