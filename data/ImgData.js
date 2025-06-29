@@ -16,7 +16,7 @@ import Pic13 from "../assets/first-floor/ff2.webp"
 import Pic14 from "../assets/first-floor/ff3.webp"
 import Pic15 from "../assets/first-floor/ff4.webp"
 import Pic16 from "../assets/first-floor/ff5.webp"
-import Pic17 from "../assets/first-floor/ff6.webp"
+import Pic17 from "../assets/first-floor/ff6.0.webp"
 import Pic18 from "../assets/first-floor/ff7.webp"
 import Pic19 from "../assets/first-floor/ff8.webp"
 import Pic20 from "../assets/first-floor/ff9.webp"
@@ -24,34 +24,39 @@ import Pic21 from "../assets/first-floor/ff10.webp"
 import Pic22 from "../assets/first-floor/ff11.webp"
 import Pic23 from "../assets/first-floor/ff12.webp"
 import Pic24 from "../assets/first-floor/ff-plan.webp"
+import Pic26 from "../assets/first-floor/ff6.1.webp"
+import Pic27 from "../assets/first-floor/ff6.2.webp"
 
 export const imgDataGF = [
-    {id: 1, url: Pic1},
-    {id: 2, url: Pic2},
-    {id: 3, url: Pic3},
-    {id: 4, url: Pic4},
-    {id: 5, url: Pic5},
-    {id: 6, url: Pic6},
-    {id: 7, url: Pic7},
-    {id: 8, url: Pic8},
-    {id: 9, url: Pic9},
-    {id: 10, url: Pic10},
-    {id: 25, url: Pic25},
+    { id: 1, url: Pic1 },
+    { id: 2, url: Pic2 },
+    { id: 3, url: Pic3 },
+    { id: 4, url: Pic4 },
+    { id: 5, url: Pic5 },
+    { id: 6, url: Pic6 },
+    { id: 7, url: Pic7 },
+    { id: 8, url: Pic8 },
+    { id: 9, url: Pic9 },
+    { id: 10, url: Pic10 },
+    { id: 25, url: Pic25 },
 ]
 
 export const imgDataFF = [
-    {id: 11, url: Pic11},
-    {id: 12, url: Pic12},
-    {id: 13, url: Pic13},
-    {id: 14, url: Pic14},
-    {id: 15, url: Pic15},
-    {id: 16, url: Pic16},
-    {id: 17, url: Pic17},
-    {id: 18, url: Pic18},
-    {id: 19, url: Pic19},
-    {id: 20, url: Pic20},
-    {id: 21, url: Pic21},
-    {id: 22, url: Pic22},
-    {id: 23, url: Pic23},
-    {id: 24, url: Pic24}
+    { id: 11, url: Pic11 },
+    { id: 12, url: Pic12 },
+    { id: 13, url: Pic13 },
+    { id: 14, url: Pic14 },
+    { id: 15, url: Pic15 },
+    { id: 16, url: Pic16 },
+    { id: 17, url: Pic17 },
+    { id: 26, url: Pic26 },
+    { id: 27, url: Pic27 },
+    { id: 18, url: Pic18 },
+    { id: 19, url: Pic19 },
+    { id: 20, url: Pic20 },
+    { id: 21, url: Pic21 },
+    { id: 22, url: Pic22 },
+    { id: 23, url: Pic23 },
+    { id: 24, url: Pic24 },
+
 ]

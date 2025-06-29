@@ -45,12 +45,13 @@
     },
     "first_floor": {
       "firstFloor": "First Floor",
-      "first_li": "3 double bedrooms with 160x200cm King size beds",
-      "second_li": "1 double bedroom with 140x190cm Double bed",
-      "third_li": "1 cabin with 2 80x190cm single beds (bunk bed)",
-      "fourth_li": "Extra wardrobe and storage space",
-      "fifth_li": "1 bathroom with a bathtub and toilet",
-      "sixth_li": "1 bathroom with a shower"
+      "first_li": "2 double bedrooms with 160x200cm King size beds",
+      "second_li": "1 en suite double bedroom with 160x200cm King size bed",
+      "third_li": "1 double bedroom with 140x190cm Double bed",
+      "fourth_li": "1 cabin with 2 80x190cm single beds (bunk bed)",
+      "fifth_li": "Extra wardrobe and storage space",
+      "sixth_li": "1 bathroom with a bathtub and toilet",
+      "seventh_li": "1 bathroom with a shower"
     },
     "equipment": {
       "equipmentTitle": "Equipment",

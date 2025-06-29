@@ -45,12 +45,13 @@
     },
     "first_floor": {
       "firstFloor": "Etage",
-      "first_li": "3 chambres doubles avec lits King size 160x200cm",
-      "second_li": "1 chambre double avec lit 140x190cm",
-      "third_li": "1 cabine avec lits superposés de 80x190cm",
-      "fourth_li": "Rangements supplémentaires dans le couloir",
-      "fifth_li": "1 salle de bain avec baignoire et WC",
-      "sixth_li": "1 salle de bain avec douche"
+      "first_li": "2 chambres doubles avec lits King size 160x200cm",
+      "second_li": "1 chambre double avec lit King size 160x200cm et salle de bain en suite",
+      "third_li": "1 chambre double avec lit 140x190cm",
+      "fourth_li": "1 cabine avec lits superposés de 80x190cm",
+      "fifth_li": "Rangements supplémentaires dans le couloir",
+      "sixth_li": "1 salle de bain avec baignoire et WC",
+      "seventh_li": "1 salle de bain avec douche"
     },
     "equipment": {
       "equipmentTitle": "Équipement",

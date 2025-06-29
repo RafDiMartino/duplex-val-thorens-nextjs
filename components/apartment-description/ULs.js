@@ -34,6 +34,7 @@ export function ULFirstFloor() {
                     <li>{t("common:apartment.first_floor.fourth_li")}</li>
                     <li>{t("common:apartment.first_floor.fifth_li")}</li>
                     <li>{t("common:apartment.first_floor.sixth_li")}</li>
+                    <li>{t("common:apartment.first_floor.seventh_li")}</li>
                 </ul>
             </div>
         </div>
