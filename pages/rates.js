@@ -17,7 +17,7 @@ function Rates() {
         <meta name="description" content={t("common:head.rates")} />
         <link rel="icon" href="/snowflake.png" />
       </Head>
-      <Header
+      {/* <Header
         img={RatesHeaderImg}
         h1={t("common:headers.page_title_rates")}
         h2={t("common:headers.title_rates")}
@@ -34,7 +34,7 @@ function Rates() {
         rates4="3000€"
         period5={t("common:rates.seasons.season_end.months5")}
         rates5="2500€"
-      />
+      /> */}
       <Header2
         h1={t("common:headers.page_title_rates2")}
         h2={t("common:headers.title_rates2")}
@@ -91,6 +91,19 @@ function Rates() {
         rates3="3800€"
         period4={t("common:rates.seasons.season_mid2.months4")}
         rates4="3800€"
+      />
+      <RatesTable
+        season={t("common:rates.seasons.season_end.season_title")}
+        period={t("common:rates.seasons.season_end.months")}
+        rates="3800€"
+        period2={t("common:rates.seasons.season_end.months2")}
+        rates2="3800€"
+        period3={t("common:rates.seasons.season_end.months3")}
+        rates3="3800€"
+        period4={t("common:rates.seasons.season_end.months4")}
+        rates4="3800€"
+        // period5={t("common:rates.seasons.season_end.months5")}
+        // rates5="2500€"
       />
       <div className={classes["short-stay-wrapper"]}>
         <h1 className={classes["h1-short-stay"]}>{t("common:rates.short_stay_title")}</h1>
