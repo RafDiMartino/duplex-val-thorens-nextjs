@@ -17,12 +17,12 @@ function Rates() {
         <meta name="description" content={t("common:head.rates")} />
         <link rel="icon" href="/snowflake.png" />
       </Head>
-      {/* <Header
+      <Header
         img={RatesHeaderImg}
-        h1={t("common:headers.page_title_rates")}
-        h2={t("common:headers.title_rates")}
+        h1={t("common:headers.page_title_rates2")}
+        h2={t("common:headers.title_rates2")}
       />
-      <RatesTable
+      {/* <RatesTable
         season={t("common:rates.seasons.season_end.season_title")}
         period={t("common:rates.seasons.season_end.months")}
         rates="3000€"
@@ -35,10 +35,10 @@ function Rates() {
         period5={t("common:rates.seasons.season_end.months5")}
         rates5="2500€"
       /> */}
-      <Header2
+      {/* <Header2
         h1={t("common:headers.page_title_rates2")}
         h2={t("common:headers.title_rates2")}
-      />
+      /> */}
       <RatesTable
         season={t("common:rates.seasons.season_start.season_title")}
         period={t("common:rates.seasons.season_start.months")}
