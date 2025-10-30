@@ -13,7 +13,7 @@ import Pic25 from "../assets/ground-floor/gf-plan.webp"
 import Pic11 from "../assets/first-floor/ff.webp"
 import Pic12 from "../assets/first-floor/ff1.webp"
 import Pic13 from "../assets/first-floor/ff2.webp"
-import Pic14 from "../assets/first-floor/ff3.webp"
+import Pic14 from "../assets/first-floor/ff3.0.webp"
 import Pic15 from "../assets/first-floor/ff4.webp"
 import Pic16 from "../assets/first-floor/ff5.webp"
 import Pic17 from "../assets/first-floor/ff6.0.webp"
@@ -26,6 +26,8 @@ import Pic23 from "../assets/first-floor/ff12.webp"
 import Pic24 from "../assets/first-floor/ff-plan.webp"
 import Pic26 from "../assets/first-floor/ff6.1.webp"
 import Pic27 from "../assets/first-floor/ff6.2.webp"
+import Pic28 from "../assets/first-floor/ff3.1.webp"
+
 
 export const imgDataGF = [
     { id: 1, url: Pic1 },
@@ -46,6 +48,7 @@ export const imgDataFF = [
     { id: 12, url: Pic12 },
     { id: 13, url: Pic13 },
     { id: 14, url: Pic14 },
+    { id: 28, url: Pic28 },
     { id: 15, url: Pic15 },
     { id: 16, url: Pic16 },
     { id: 17, url: Pic17 },
