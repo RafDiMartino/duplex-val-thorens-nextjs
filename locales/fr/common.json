@@ -20,9 +20,9 @@
     "title_home": "Nous vous proposons de louer notre grand duplex de 80 mètres carrés, situé au dernier étage de la résidence “Les Lauzieres”.",
     "page_title_apartment": "L'Appartement",
     "title_apartment": "Détails & Photos",
-    "page_title_rates": "Tarifs 2024 - 2025",
+    "page_title_rates": "Tarifs 2025 - 2026",
     "title_rates": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
-    "page_title_rates2": "Tarifs 2025 - 2026",
+    "page_title_rates2": "Tarifs 2026 - 2027",
     "title_rates2": "Tarifs à la semaine avec arrivée le samedi et séjour minimum de 7 nuits",
     "page_title_maps": "Cartes",
     "title_maps": "Val Thorens",
@@ -155,16 +155,15 @@
     "seasons": {
       "season_start": {
         "season_title": "Début de Saison",
-        "months": "18 Novembre au 25 Novembre 2023",
-        "months2": "25 Novembre au 2 Décembre 2023",
-        "months3": "2 Décembre au 9 Décembre 2023",
-        "months4": "9 Décembre au 16 Décembre 2023",
-        "months5": "16 Décembre au 23 Décembre 2023"
+        "months": "21 Novembre au 28 Novembre 2026",
+        "months2": "28 Novembre au 5 Décembre 2026",
+        "months3": "5 Décembre au 12 Décembre 2026",
+        "months4": "12 Décembre au 19 Décembre 2026"
       },
       "christmas": {
         "season_title": "Noël et Jour de l'An",
-        "months": "23 Décembre au 30 Décembre 2023",
-        "months2": "30 Décembre 2023 au 06 Janvier 2024"
+        "months": "19 Décembre au 26 Décembre 2026",
+        "months2": "26 Décembre 2026 au 02 Janvier 2027"
       },
       "season_low": {
         "season_title": "Basse Saison",

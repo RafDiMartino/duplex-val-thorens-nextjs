@@ -20,9 +20,9 @@
     "title_home": "We are delighted to offer you the opportunity to rent our 80 square metres (861 square feet) duplex apartment, located on the top floor of the residence “Les Ltozieres”.",
     "page_title_apartment": "The Apartment",
     "title_apartment": "Details & Photos",
-    "page_title_rates": "Rates 2024 - 2025",
+    "page_title_rates": "Rates 2025 - 2026",
     "title_rates": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
-    "page_title_rates2": "Rates 2025 - 2026",
+    "page_title_rates2": "Rates 2026 - 2027",
     "title_rates2": "Weekly rates with arrival on Saturday and 7 nights minimum stay",
     "page_title_maps": "Maps",
     "title_maps": "Val Thorens",
@@ -106,8 +106,8 @@
       },
       "christmas": {
         "season_title": "Christmas & New Year",
-        "months": "20 December to 27 December 2025",
-        "months2": "27 December 2025 to 03 January 2026"
+        "months": "19 December to 26 December 2026",
+        "months2": "26 December 2026 to 02 January 2027"
       },
       "season_low": {
         "season_title": "Low Season",
@@ -155,16 +155,15 @@
     "seasons": {
       "season_start": {
         "season_title": "Beginning of Season",
-        "months": "18 November to 25 December 2023",
-        "months2": "25 December to 2 December 2023",
-        "months3": "2 December to 9 December 2023",
-        "months4": "9 December to 16 December 2023",
-        "months5": "16 December to 23 December 2023"
+        "months": "21 November to 28 November 2026",
+        "months2": "28 November to 5 December 2026",
+        "months3": "5 December to 12 December 2026",
+        "months4": "12 December to 19 December 2026"
       },
       "christmas": {
         "season_title": "Christmas & New Year",
-        "months": "23 December to 30 December 2023",
-        "months2": "30 December 2023 to 06 January 2024"
+        "months": "19 December to 26 December 2026",
+        "months2": "26 December 2026 to 02 January 2027"
       },
       "season_low": {
         "season_title": "Low Season",

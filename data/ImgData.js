@@ -27,6 +27,7 @@ import Pic24 from "../assets/first-floor/ff-plan.webp"
 import Pic26 from "../assets/first-floor/ff6.1.webp"
 import Pic27 from "../assets/first-floor/ff6.2.webp"
 import Pic28 from "../assets/first-floor/ff3.1.webp"
+import Pic29 from "../assets/first-floor/ff5.1.webp"
 
 
 export const imgDataGF = [
@@ -51,6 +52,7 @@ export const imgDataFF = [
     { id: 28, url: Pic28 },
     { id: 15, url: Pic15 },
     { id: 16, url: Pic16 },
+    { id: 29, url: Pic29 },
     { id: 17, url: Pic17 },
     { id: 26, url: Pic26 },
     { id: 27, url: Pic27 },

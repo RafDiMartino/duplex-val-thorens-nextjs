@@ -19,8 +19,8 @@ function Rates() {
       </Head>
       <Header
         img={RatesHeaderImg}
-        h1={t("common:headers.page_title_rates2")}
-        h2={t("common:headers.title_rates2")}
+        h1={t("common:headers.page_title_rates")}
+        h2={t("common:headers.title_rates")}
       />
       {/* <RatesTable
         season={t("common:rates.seasons.season_end.season_title")}
@@ -39,7 +39,7 @@ function Rates() {
         h1={t("common:headers.page_title_rates2")}
         h2={t("common:headers.title_rates2")}
       /> */}
-      <RatesTable
+      {/* <RatesTable
         season={t("common:rates.seasons.season_start.season_title")}
         period={t("common:rates.seasons.season_start.months")}
         rates="1800€"
@@ -56,7 +56,7 @@ function Rates() {
         rates="4600€"
         period2={t("common:rates.seasons.christmas.months2")}
         rates2="5300€"
-      />
+      /> */}
       <RatesTable
         season={t("common:rates.seasons.season_mid.season_title")}
         period={t("common:rates.seasons.season_mid.months")}
@@ -104,6 +104,28 @@ function Rates() {
         rates4="3800€"
         // period5={t("common:rates.seasons.season_end.months5")}
         // rates5="2500€"
+      />
+      <Header2
+        h1={t("common:headers.page_title_rates2")}
+        h2={t("common:headers.title_rates2")}
+      />
+      <RatesTable
+        season={t("common:rates.seasons.season_start.season_title")}
+        period={t("common:rates2.seasons.season_start.months")}
+        rates="2000€"
+        period2={t("common:rates2.seasons.season_start.months2")}
+        rates2="2000€"
+        period3={t("common:rates2.seasons.season_start.months3")}
+        rates3="3000€"
+        period4={t("common:rates2.seasons.season_start.months4")}
+        rates4="3000€"
+      />
+      <RatesTable
+        season={t("common:rates.seasons.christmas.season_title")}
+        period={t("common:rates2.seasons.christmas.months")}
+        rates="5500€"
+        period2={t("common:rates2.seasons.christmas.months2")}
+        rates2="6200€"
       />
       <div className={classes["short-stay-wrapper"]}>
         <h1 className={classes["h1-short-stay"]}>{t("common:rates.short_stay_title")}</h1>
