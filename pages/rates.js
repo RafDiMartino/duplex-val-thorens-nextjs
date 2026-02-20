@@ -57,7 +57,7 @@ function Rates() {
         period2={t("common:rates.seasons.christmas.months2")}
         rates2="5300€"
       /> */}
-      <RatesTable
+      {/* <RatesTable
         season={t("common:rates.seasons.season_mid.season_title")}
         period={t("common:rates.seasons.season_mid.months")}
         rates="3600€"
@@ -69,8 +69,8 @@ function Rates() {
         rates4="3800€"
         period5={t("common:rates.seasons.season_mid.months5")}
         rates5="3800€"
-      />
-      <RatesTable
+      /> */}
+      {/* <RatesTable
         season={t("common:rates.seasons.season_high.season_title")}
         period={t("common:rates.seasons.season_high.months")}
         rates="4900€"
@@ -80,7 +80,7 @@ function Rates() {
         rates3="4900€"
         period4={t("common:rates.seasons.season_high.months4")}
         rates4="4900€"
-      />
+      /> */}
       <RatesTable
         season={t("common:rates.seasons.season_mid2.season_title")}
         period={t("common:rates.seasons.season_mid2.months")}
@@ -126,6 +126,30 @@ function Rates() {
         rates="5500€"
         period2={t("common:rates2.seasons.christmas.months2")}
         rates2="6200€"
+      />
+            <RatesTable
+        season={t("common:rates.seasons.season_mid.season_title")}
+        period={t("common:rates.seasons.season_mid.months")}
+        rates="4000€"
+        period2={t("common:rates.seasons.season_mid.months2")}
+        rates2="4000€"
+        period3={t("common:rates.seasons.season_mid.months3")}
+        rates3="4000€"
+        period4={t("common:rates.seasons.season_mid.months4")}
+        rates4="4000€"
+        period5={t("common:rates.seasons.season_mid.months5")}
+        rates5="4200€"
+      /> 
+      <RatesTable
+        season={t("common:rates.seasons.season_high.season_title")}
+        period={t("common:rates.seasons.season_high.months")}
+        rates="5800€"
+        period2={t("common:rates.seasons.season_high.months2")}
+        rates2="5800€"
+        period3={t("common:rates.seasons.season_high.months3")}
+        rates3="5800€"
+        period4={t("common:rates.seasons.season_high.months4")}
+        rates4="5800€"
       />
       <div className={classes["short-stay-wrapper"]}>
         <h1 className={classes["h1-short-stay"]}>{t("common:rates.short_stay_title")}</h1>
