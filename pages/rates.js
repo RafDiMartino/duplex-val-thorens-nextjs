@@ -101,7 +101,7 @@ function Rates() {
         period3={t("common:rates.seasons.season_end.months3")}
         rates3="2800€"
         period4={t("common:rates.seasons.season_end.months4")}
-        rates4="3800€"
+        rates4="2800€"
       // period5={t("common:rates.seasons.season_end.months5")}
       // rates5="2500€"
       />
