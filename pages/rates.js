@@ -165,13 +165,13 @@ function Rates() {
       <RatesTable
         season={t("common:rates.seasons.season_end.season_title")}
         period={t("common:rates.seasons.season_end.months")}
-        rates="3800€"
+        rates="3200€"
         period2={t("common:rates.seasons.season_end.months2")}
-        rates2="3800€"
+        rates2="3200€"
         period3={t("common:rates.seasons.season_end.months3")}
-        rates3="3800€"
+        rates3="3200€"
         period4={t("common:rates.seasons.season_end.months4")}
-        rates4="3800€"
+        rates4="3200€"
         // period5={t("common:rates.seasons.season_end.months5")}
         // rates5="2500€"
       />
